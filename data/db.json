@@ -1,0 +1,82 @@
+{
+  "adminPassword": "lexglobal2026",
+  "posts": [],
+  "courses": [],
+  "enrollments": [],
+  "team": [
+    {
+      "id": "t1",
+      "name": "Dr. Amara Okonkwo",
+      "role": "Managing Partner & Arbitrator",
+      "specialty": "International Commercial & Treaty Arbitration",
+      "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80",
+      "bio": "Dr. Okonkwo has eighteen years in international dispute resolution across Europe, Africa, and Southeast Asia. She has sat as arbitrator and counsel in over 45 proceedings under ICC, LCIA, SIAC, and ICSID rules.",
+      "admissions": [
+        "Bar of England & Wales",
+        "Singapore International Commercial Court Bar",
+        "Nigerian Bar"
+      ],
+      "languages": [
+        "English",
+        "French",
+        "Yoruba"
+      ],
+      "experience": "18 years"
+    },
+    {
+      "id": "t2",
+      "name": "Adv. Priya Menon",
+      "role": "Partner, Transactional Practice",
+      "specialty": "Cross-Border Contracts, Joint Ventures & M&A",
+      "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80",
+      "bio": "Priya advises funds, cross-border fintech platforms, and enterprise software providers on cross-jurisdictional M&A, licensing, and governing-law structures.",
+      "admissions": [
+        "New York State Bar",
+        "Bar Council of India"
+      ],
+      "languages": [
+        "English",
+        "Hindi",
+        "Malayalam"
+      ],
+      "experience": "14 years"
+    },
+    {
+      "id": "t3",
+      "name": "Dr. Sofia Lindqvist",
+      "role": "Head of Data & Privacy",
+      "specialty": "Global Data Protection & Cyber Governance",
+      "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=800&q=80",
+      "bio": "Dr. Lindqvist counsels on European GDPR, UK GDPR, and APAC frameworks. Former advisor to the EDPB working group on Standard Contractual Clauses.",
+      "admissions": [
+        "Swedish Bar Association",
+        "Law Society of England & Wales"
+      ],
+      "languages": [
+        "English",
+        "Swedish",
+        "German"
+      ],
+      "experience": "12 years"
+    },
+    {
+      "id": "t4",
+      "name": "Adv. Rohan Desai",
+      "role": "Consumer Lead",
+      "specialty": "E-Commerce Liability & Consumer Redress",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80",
+      "bio": "Rohan has represented consumer collectives and digital platform operators before appellate commissions, focusing on deceptive patterns and payment disputes.",
+      "admissions": [
+        "Supreme Court of India"
+      ],
+      "languages": [
+        "English",
+        "Hindi",
+        "Gujarati"
+      ],
+      "experience": "10 years"
+    }
+  ],
+  "inquiries": [],
+  "orders": []
+}

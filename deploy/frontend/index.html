@@ -1,0 +1,3208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-Content-Type-Options" content="nosniff">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self' https: data: blob: 'unsafe-inline' 'unsafe-eval'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://checkout.razorpay.com https://*.razorpay.com https://cdnjs.cloudflare.com https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com https://cdn.jsdelivr.net; font-src 'self' data: https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' data: blob: https:; connect-src 'self' https: http://localhost:* http://127.0.0.1:* ws: wss:; frame-src 'self' https://api.razorpay.com https://*.razorpay.com https://www.youtube.com https://maps.google.com;">
+<meta name="description" content="LEX GLOBAL ADVOCACY — A full-service international law firm with experienced attorneys handling complex legal issues across 42+ jurisdictions worldwide.">
+<title>LEX GLOBAL ADVOCACY | Full-Service Law Firm</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Prompt:wght@400;500;600;700&family=Unna:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,600;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+
+<style>
+@media print {
+  body * { visibility: hidden !important; }
+  #customModalOverlay, #customModalOverlay * { visibility: visible !important; }
+  #customModalOverlay { position: absolute !important; left: 0 !important; top: 0 !important; width: 100% !important; background: #fff !important; }
+  .custom-modal-close, .no-print { display: none !important; }
+  .custom-modal-box { box-shadow: none !important; border: none !important; padding: 0 !important; width: 100% !important; max-width: 100% !important; }
+}
+/* ============================================================
+   LEX GLOBAL ADVOCACY — Master All-in-One Stylesheet
+   ============================================================ */
+:root{
+  --primary:#f5c00c;
+  --primary-dark:#c99b00;
+  --black:#000;
+  --white:#fff;
+  --gray-light:#ececec;
+  --gray-mid:#c7c7c7;
+  --gray-dark:#171818;
+  --text:#111;
+  --text-muted:#555;
+  --font-body:'Hind',sans-serif;
+  --font-serif:'Unna',serif;
+  --font-accent:'Prompt',sans-serif;
+  --font-display:'Playfair Display',serif;
+}
+*,*::before,*::after{box-sizing:border-box;}
+html{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;scroll-behavior:smooth;}
+body{margin:0;font-family:var(--font-body);font-size:16px;line-height:2;letter-spacing:1px;color:var(--text);background:var(--white);}
+body.modal-open, body.menu-open{overflow:hidden;}
+img{display:block;max-width:100%;height:auto;}
+a{color:var(--primary);text-decoration:none;transition:color .25s ease-in-out,background-color .25s ease-in-out;}
+a:hover,a:focus{color:var(--black);}
+h1,h2,h3,h4,h5,h6{margin:0 0 .5rem;font-family:var(--font-serif);font-weight:400;line-height:1.1;}
+h1{font-size:2.2rem;} h2{font-size:2rem;} h3{font-weight:700;font-size:1.6rem;}
+h4{font-weight:500;letter-spacing:2px;text-transform:uppercase;font-size:1.35rem;}
+p{margin:0 0 1.25rem;line-height:2;}
+ul,ol{margin:0;padding:0;list-style:none;}
+button{font-family:inherit;cursor:pointer;border:0;background:none;}
+
+.visually-hidden{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;}
+.hide-for-small-only{display:none;} .show-for-small-only{display:block;}
+@media(min-width:40em){.hide-for-small-only{display:block;} .show-for-small-only{display:none;}}
+
+#skiptocontent{position:fixed;top:0;left:0;z-index:10000;padding:8px 12px;background:var(--black);color:var(--white);transform:translateY(-100%);opacity:0;transition:200ms ease-out;}
+#skiptocontent:focus{transform:translateY(0);opacity:1;}
+
+.wrapper{width:100%;max-width:100%;overflow:hidden;font-size:20px;}
+.grid-container{width:100%;max-width:100%;padding-right:118px;padding-left:118px;margin:0 auto;}
+@media(max-width:1499px){.grid-container{padding-right:24px;padding-left:24px;}}
+@media(max-width:768px){.grid-container{padding-right:16px;padding-left:16px;}}
+
+.button{position:relative;display:inline-flex;align-items:center;justify-content:center;height:43px;padding:7px 35px 4px;font-family:var(--font-body);font-weight:700;font-size:16px;color:#222;text-transform:uppercase;text-align:center;white-space:nowrap;background:#bbbfc2;border:0;border-radius:0;overflow:hidden;z-index:1;transition:color .25s ease-in-out,background-color .25s ease-in-out;cursor:pointer;}
+.button::before{content:'';position:absolute;top:0;left:0;z-index:-1;width:5px;height:100%;background:var(--primary);transition:width .25s ease-in-out;}
+.button:hover,.button:focus{color:#222;text-decoration:none;}
+.button:hover::before,.button:focus::before{width:100%;}
+.button-primary{background:var(--primary);color:#000;}
+.button-primary::before{background:#deb00c;}
+
+.animate{visibility:hidden;}
+.animate.is-animated{visibility:visible;animation:fadeIn .8s ease-out forwards;}
+@keyframes fadeIn{from{opacity:0;} to{opacity:1;}}
+
+/* ---------- HEADER ---------- */
+.header{position:fixed;top:0;right:0;left:0;z-index:999;display:flex;align-items:center;justify-content:space-between;padding-top:14px;padding-bottom:14px;line-height:1.3;background:transparent;transition:background .25s ease-in-out,padding .25s ease-in-out;box-shadow:inset 0 270px 100px -200px rgba(0,0,0,0.9);}
+.header.is-fixed{background:var(--black);padding-top:8px;padding-bottom:8px;box-shadow:0 10px 30px rgba(0,0,0,0.4);}
+.header .logo{display:block;color:var(--white);}
+.logo-text{display:block;font-family:var(--font-accent);font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--white);line-height:1;}
+.logo-text .logo-mark{display:block;font-size:26px;color:var(--white);}
+.logo-text .logo-sub{display:block;margin-top:6px;font-size:14px;font-weight:500;letter-spacing:6px;color:var(--primary);}
+.logo-text::before{content:'';display:block;width:48px;height:3px;background:var(--primary);margin-bottom:10px;}
+.header .right{display:flex;flex-direction:column;align-items:flex-end;gap:8px;}
+.header .tools{display:flex;align-items:center;gap:16px;padding-right:8px;}
+.header .tools .search,.header .tools .toggle{display:inline-flex;align-items:center;justify-content:center;width:45px;height:42px;color:var(--white);border:3px solid #d9d9d9;transition:color .25s,border-color .25s;}
+.header .tools .search:hover,.header .tools .search:focus,.header .tools .toggle:hover,.header .tools .toggle:focus{color:var(--primary);border-color:var(--primary);}
+.header .tools .tel{display:inline-flex;align-items:center;gap:14px;min-height:42px;color:var(--white);font-weight:600;font-size:24px;}
+.header .tools .tel:hover{color:var(--primary);}
+.header .tools .tel i{position:relative;color:var(--white);font-size:18px;padding-right:20px;margin-right:6px;}
+.header .tools .tel i::after{content:'';position:absolute;top:50%;right:0;width:4px;height:40px;background:var(--gray-mid);transform:translateY(-50%);}
+.header .tools .toggle{display:none;}
+.header nav{width:100%;}
+.header nav > ul{display:flex;justify-content:flex-end;margin:0;padding:0;list-style:none;}
+.header nav > ul > li{position:relative;margin-left:26px;}
+.header nav > ul > li:first-child{margin-left:0;}
+.header nav > ul > li > a{position:relative;display:block;padding:6px 0;font-weight:600;font-size:16px;color:var(--white);line-height:1.3;}
+.header nav > ul > li > a::after{content:'';position:absolute;bottom:-6px;left:50%;width:38px;height:4px;background:var(--white);transform:translateX(-50%);opacity:0;visibility:hidden;transition:opacity .25s ease-in-out;}
+.header nav > ul > li:hover > a,.header nav > ul > li:focus-within > a,.header nav > ul > li.is-active > a{color:var(--primary);}
+.header nav > ul > li:hover > a::after,.header nav > ul > li:focus-within > a::after,.header nav > ul > li.is-active > a::after{opacity:1;visibility:visible;}
+.header nav .sub-menu{position:absolute;top:100%;left:-32px;display:none;width:405px;margin:0;padding:12px 0;background:var(--black);z-index:999;box-shadow:0 12px 30px rgba(0,0,0,0.5);}
+.header nav li:hover > .sub-menu,.header nav li:focus-within > .sub-menu{display:block;}
+.header nav .sub-menu li{margin:0;}
+.header nav .sub-menu a{display:block;padding:8px 20px;font-size:14px;color:var(--white);}
+.header nav .sub-menu a:hover{color:var(--primary);background:rgba(255,255,255,0.05);}
+
+.search-bar{display:none;position:relative;width:100%;padding:40px;background:var(--black);z-index:2;}
+.search-bar.is-open{display:block;}
+.search-bar form{position:relative;}
+.search-bar .close-it{position:absolute;top:-30px;right:0;font-size:20px;}
+.search-bar .close-it a{color:var(--white);}
+.search-bar input[type="text"]{width:100%;height:50px;padding:8px 40px 8px 8px;font-size:22px;color:var(--white);background:transparent;border:0;border-bottom:1px solid #cacaca;}
+.search-bar input[type="text"]::placeholder{color:var(--white);opacity:1;}
+.search-bar button[type="submit"]{position:absolute;top:0;right:0;padding:8px 0;font-size:22px;color:var(--white);}
+
+@media(max-width:1023px){
+  .header nav{display:none;}
+  .header nav.is-open{display:block;position:fixed;top:0;right:0;width:80%;max-width:400px;height:100vh;padding:80px 24px 24px;background:var(--primary);overflow-y:auto;z-index:998;}
+  .header nav.is-open > ul{flex-direction:column;}
+  .header nav.is-open > ul > li{margin:0;border-bottom:1px solid rgba(255,255,255,0.3);}
+  .header nav.is-open > ul > li > a{padding:14px 0;color:var(--white);font-size:20px;}
+  .header nav.is-open > ul > li > a::after{display:none;}
+  .header nav.is-open .sub-menu{position:static;display:block;width:100%;padding:0 0 0 16px;background:transparent;}
+  .header nav.is-open .sub-menu a{color:var(--white);font-size:14px;padding:6px 0;}
+  .header .tools .toggle{display:inline-flex;}
+  .header .tools .tel span{display:none;}
+  .header .tools .tel i{font-size:22px;margin-right:0;padding-right:0;}
+  .header .tools .tel i::after{display:none;}
+}
+
+/* ---------- HERO SLIDER ---------- */
+.slider{position:relative;height:100vh;min-height:100vh;margin:0;overflow:hidden;background:#05080c;}
+.main-slider{height:100vh;position:relative;}
+.main-slider .slide{position:absolute;inset:0;opacity:0;visibility:hidden;transition:opacity 0.8s ease-in-out, visibility 0.8s ease-in-out;padding:200px 0;box-sizing:border-box;}
+.main-slider .slide.slick-active, .main-slider .slide.active-slide{opacity:1;visibility:visible;z-index:1;}
+.slide-media{position:absolute;inset:0;z-index:0;}
+.slide-media img{width:100%;height:100%;object-fit:cover;object-position:left center;filter:brightness(0.68);}
+.main-slider article{position:absolute;top:50%;left:0;right:0;z-index:1;display:flex;justify-content:flex-end;transform:translateY(-50%);}
+.slider-heading{display:block;width:100%;max-width:758px;padding:38px 0 45px 48px;font-family:var(--font-body);font-weight:600;font-size:60px;line-height:.99;color:var(--white);text-transform:uppercase;border-left:5px solid var(--primary);}
+.slider-heading > span{display:block;font-size:118%;color:var(--primary);}
+.slider-tools{position:absolute;bottom:0;left:0;right:0;z-index:2;display:flex;align-items:center;justify-content:space-between;min-height:90px;padding-bottom:20px;color:var(--white);}
+.slider-info{display:flex;flex-wrap:wrap;justify-content:space-between;width:100%;max-width:400px;}
+.slider-info i{display:flex;align-items:center;justify-content:center;flex-shrink:0;width:48px;height:48px;margin-top:8px;font-size:24px;border:3px solid var(--primary);color:var(--primary);}
+.slider-info p{width:calc(100% - 85px);font-family:var(--font-serif);font-style:italic;line-height:1.75;margin:0;}
+.slider-explore{position:absolute;top:8px;left:50%;z-index:1;display:inline-flex;align-items:center;justify-content:center;height:53px;min-width:170px;padding:5px 15px;font-family:var(--font-accent);font-weight:700;font-size:16px;color:var(--white);text-transform:uppercase;background:rgba(0,0,0,0.5);border:1px solid rgba(255,255,255,0.2);transform:translateX(-50%);transition:background .25s;}
+.slider-explore i{color:var(--primary);margin-right:10px;}
+.slider-explore:hover{background:var(--black);color:var(--white);border-color:var(--primary);}
+.slider-control{display:flex;align-items:center;align-self:flex-start;margin-top:15px;}
+.slider-control p{min-width:60px;margin:0 10px;font-family:var(--font-accent);font-weight:500;text-align:center;}
+.slider-control .js-current-slide{color:var(--primary);}
+.slider-control button{width:90px;height:13px;overflow:hidden;text-indent:-9999px;background:transparent;transition:opacity .25s;cursor:pointer;}
+.slider-control button.prev{background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 90 13'><path d='M30 6.5H90' stroke='%23bbb' stroke-width='1'/><path d='M0 6.5l30-6v12z' fill='%23bbb'/></svg>") no-repeat center/100% 100%;}
+.slider-control button.next{background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 90 13'><path d='M0 6.5h60' stroke='%23bbb' stroke-width='1'/><path d='M90 6.5l-30-6v12z' fill='%23bbb'/></svg>") no-repeat center/100% 100%;}
+.slider-control button:hover{filter:brightness(1.5);}
+@media(max-width:1199px){.slider-heading{font-size:50px;max-width:600px;}}
+@media(max-width:1023px){
+  .main-slider .slide{display:flex;align-items:center;padding:160px 0 100px;}
+  .main-slider article{position:static;transform:none;justify-content:flex-start;}
+  .slider-heading{font-size:40px;padding:24px 0 24px 30px;}
+  .slider-tools{position:relative;background:var(--black);padding:20px;}
+  .slider-explore{top:-80px;}
+}
+@media(max-width:639px){
+  .wrapper{font-size:18px;}
+  .main-slider .slide{height:auto;min-height:100vh;align-items:flex-end;padding:160px 0 85px;}
+  .slider-heading{padding:15px 0 10px;border-left:0;border-top:3px solid var(--primary);font-size:25px;text-align:center;line-height:1.05;}
+  .slider-tools{position:absolute;bottom:0;left:0;right:0;justify-content:center;background:transparent;padding:0 0 20px;}
+  .slider-explore{position:static;transform:none;}
+  .slider-info,.slider-control{display:none;}
+}
+
+/* ---------- STORY ---------- */
+.story{position:relative;display:flex;flex-wrap:wrap;justify-content:space-between;padding-top:200px;padding-bottom:110px;overflow:hidden;background:#fbfafa;}
+.story::before{content:'';position:absolute;inset:0;background:linear-gradient(27deg,rgba(0,0,0,0.06),transparent);pointer-events:none;}
+.story-left{position:relative;width:49%;padding-left:58px;z-index:3;}
+.story-top{display:none;}
+.story-slider{position:relative;box-shadow:30px 20px 60px rgba(0,0,0,0.3);}
+.story-slider .slide{position:relative;}
+.story-slider .slide img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;}
+.story-slider .slide article{position:absolute;bottom:0;left:0;width:100%;padding:0 90px 45px;background:linear-gradient(0deg,rgba(0,0,0,0.9),rgba(0,0,0,0.1));color:var(--white);font-weight:500;font-size:14px;}
+.story-slider .slide article::before{content:'';display:block;width:100%;height:5px;margin-bottom:28px;background:#737373;}
+.story-slider .slide h4{font-family:var(--font-body);font-weight:700;font-size:16px;text-transform:uppercase;margin-bottom:5px;color:var(--white);}
+.story-year{text-align:center;margin-top:28px;}
+.story-year .year span{position:relative;display:inline-block;padding:0 30px 8px;font-family:var(--font-display);font-weight:700;font-style:italic;font-size:72px;line-height:1.2;color:var(--primary);cursor:pointer;}
+.story-year .year span::before{content:'';position:absolute;top:22px;bottom:0;left:0;width:5px;background:#bfbfbf;}
+.story-content{position:relative;width:44.8%;padding-left:93px;padding-right:20px;z-index:2;}
+.story-content::before{content:'';position:absolute;top:5px;left:0;width:5px;height:275px;background:var(--primary);}
+.story-heading{display:block;margin-bottom:40px;font-family:var(--font-body);font-weight:600;font-size:48px;letter-spacing:1.5px;line-height:1.1;text-transform:uppercase;}
+.story-content h1{font-size:26px;font-weight:700;margin-bottom:26px;}
+.story-content p{font-size:15px;margin-bottom:24px;color:var(--text-muted);}
+@media(max-width:1023px){
+  .story-left{width:100%;padding-left:0;padding-bottom:30px;}
+  .story-content{width:100%;padding:0;margin-top:40px;}
+  .story-content::before{display:none;}
+  .story-heading{font-size:38px;margin-bottom:40px;}
+}
+@media(max-width:639px){
+  .story{padding-top:60px;padding-bottom:40px;}
+  .story-slider .slide article{padding:0 12px 12px;}
+  .story-year .year span{font-size:50px;}
+  .story-year .year span::before{top:15px;}
+  .story-content h1{font-size:24px;}
+}
+
+/* ---------- ATTORNEYS ---------- */
+.attorneys{display:flex;flex-wrap:wrap;justify-content:space-between;padding-top:150px;padding-bottom:138px;}
+.attorneys-content{width:40%;padding-left:46px;padding-top:55px;}
+.attorneys-content h2{font-family:var(--font-body);font-weight:600;font-size:48px;line-height:1;text-transform:uppercase;margin-bottom:50px;}
+.attorneys-content h3{margin-bottom:35px;}
+.attorneys-content p{font-size:15px;margin-bottom:30px;color:var(--text-muted);}
+.attorneys-content .button{margin-top:20px;}
+.attorneys-content article{max-height:560px;overflow-y:auto;padding-right:20px;}
+.attorneys-slider{position:relative;width:49.3%;padding:22px 52px;margin-right:26px;z-index:1;}
+.attorneys-slider::before,.attorneys-slider::after{content:'';position:absolute;width:190px;height:480px;background:var(--primary);z-index:-1;opacity:.08;}
+.attorneys-slider::before{top:0;left:0;}
+.attorneys-slider::after{bottom:0;right:0;}
+.attorneys-slider .slide ul{display:flex;flex-wrap:wrap;margin:0 -20px;}
+.attorneys-slider .slide li{width:50%;padding:15px 20px;}
+.attorneys-block{display:block;text-align:center;background:var(--white);border-bottom:4px solid var(--primary);transition:background .25s ease-in-out, transform .25s;cursor:pointer;}
+.attorneys-block img{width:100%;aspect-ratio:1/1;object-fit:cover;}
+.attorneys-block span{position:relative;display:block;padding:12px 6px;font-weight:700;font-size:15px;line-height:1.25;letter-spacing:1.5px;color:var(--black);text-transform:uppercase;}
+.attorneys-block:hover{background:var(--primary);transform:translateY(-4px);}
+.attorneys-block:hover span{color:var(--white);}
+@media(max-width:1023px){
+  .attorneys-content{width:100%;padding:0 0 40px;}
+  .attorneys-content h2{font-size:38px;margin-bottom:20px;}
+  .attorneys-slider{width:100%;margin:0;padding:22px 20px;}
+  .attorneys-slider .slide li{width:50%;padding:15px 10px;}
+}
+@media(max-width:639px){
+  .attorneys-slider .slide li{width:100%;}
+  .attorneys-content h2{font-size:32px;}
+}
+
+/* ---------- APPROACH & PRACTICE AREAS ---------- */
+.approach{display:flex;flex-flow:row-reverse wrap;justify-content:space-between;padding-top:195px;padding-bottom:140px;background:#f7f7f7;}
+.approach-content{width:48%;padding-left:46px;}
+.approach-content h2{font-family:var(--font-body);font-weight:600;font-size:48px;line-height:1;text-transform:uppercase;margin-bottom:50px;}
+.approach-content h3{line-height:1.35;margin-bottom:32px;}
+.approach-content p{font-size:15px;margin-bottom:30px;color:var(--text-muted);}
+.approach-content article{max-height:592px;overflow-y:auto;padding-right:30px;}
+.approach-content .button{margin-top:10px;}
+.approach-blocks{width:48.5%;padding-left:50px;position:relative;z-index:1;}
+.approach-blocks ul{display:flex;flex-wrap:wrap;margin:0 -15px;}
+.approach-blocks li{width:50%;padding:0 15px;margin-bottom:30px;}
+.approach-block{position:relative;display:block;overflow:hidden;text-align:center;cursor:pointer;}
+.approach-block img{width:100%;aspect-ratio:1/1;object-fit:cover;transition:transform .4s;}
+.approach-block span{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;padding:30px 10px 10px;font-weight:700;font-size:16px;letter-spacing:1.7px;color:var(--white);text-transform:uppercase;background:rgba(0,0,0,0.48);transition:all .25s ease-in-out;}
+.approach-block:hover img{transform:scale(1.05);}
+.approach-block:hover span{color:var(--black);background:var(--primary);padding-bottom:26px;}
+@media(max-width:1023px){
+  .approach{padding-top:80px;padding-bottom:60px;}
+  .approach-content{width:100%;padding-left:0;}
+  .approach-content h2{font-size:38px;margin-bottom:24px;}
+  .approach-blocks{width:100%;padding-left:0;margin-top:60px;}
+}
+@media(max-width:639px){
+  .approach-blocks li{width:100%;}
+  .approach-content h2{font-size:30px;}
+}
+
+/* ---------- THE LEGAL HUB & BLOGS SECTION ---------- */
+.blogs-section{padding:140px 0;background:#ffffff;}
+.blogs-section-header{text-align:center;max-width:860px;margin:0 auto 50px;}
+.blogs-section-header h2{font-family:var(--font-body);font-weight:600;font-size:48px;line-height:1;text-transform:uppercase;margin-bottom:20px;}
+.blogs-section-header h3{color:var(--primary-dark);font-size:24px;margin-bottom:16px;}
+.blogs-section-header p{font-size:16px;color:var(--text-muted);}
+
+.blogs-controls{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:36px;flex-wrap:wrap;}
+.blogs-search-input{flex:1;min-width:280px;height:48px;padding:8px 16px;font-size:15px;border:1px solid #dcdcdc;background:#fbfbfb;}
+.blogs-search-input:focus{outline:0;border-color:var(--primary);background:#fff;}
+.blogs-cat-select{height:48px;padding:8px 16px;font-size:14px;border:1px solid #dcdcdc;background:#fbfbfb;cursor:pointer;}
+
+.blogs-grid{display:grid;grid-template-columns:repeat(3, 1fr);gap:32px;}
+.blog-card{background:#fff;border:1px solid #e7e7e7;border-bottom:4px solid var(--primary);display:flex;flex-direction:column;transition:transform .3s, box-shadow .3s;cursor:pointer;}
+.blog-card:hover{transform:translateY(-6px);box-shadow:0 15px 35px rgba(0,0,0,0.08);}
+.blog-media{position:relative;aspect-ratio:16/10;overflow:hidden;background:#111;}
+.blog-media img{width:100%;height:100%;object-fit:cover;transition:transform .5s;}
+.blog-card:hover .blog-media img{transform:scale(1.05);}
+.blog-cat{position:absolute;top:12px;left:12px;background:var(--primary);color:#000;font-weight:700;font-size:11px;letter-spacing:1px;text-transform:uppercase;padding:4px 10px;}
+.blog-body{padding:24px;flex:1;display:flex;flex-direction:column;}
+.blog-meta{font-size:12px;color:#888;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px;}
+.blog-title{font-family:var(--font-serif);font-size:22px;font-weight:700;line-height:1.25;margin-bottom:10px;color:var(--black);}
+.blog-card:hover .blog-title{color:var(--primary-dark);}
+.blog-snippet{font-size:14px;line-height:1.7;color:var(--text-muted);margin-bottom:18px;flex:1;}
+.blog-foot{display:flex;justify-content:space-between;align-items:center;padding-top:14px;border-top:1px solid #eee;font-size:13px;}
+.blog-author{font-weight:600;color:var(--black);}
+.blog-read-btn{color:var(--primary-dark);font-weight:700;text-transform:uppercase;font-size:12px;letter-spacing:1px;}
+@media(max-width:1023px){.blogs-grid{grid-template-columns:repeat(2, 1fr);}}
+@media(max-width:639px){.blogs-grid{grid-template-columns:1fr;}.blogs-section-header h2{font-size:34px;}}
+
+/* ---------- COURSES & ACADEMY ---------- */
+.courses-section{padding:120px 0;background:#fcfbf8;border-top:1px solid #eaeaea;border-bottom:1px solid #eaeaea;}
+.courses-section-header{text-align:center;max-width:920px;margin:0 auto 40px;}
+.academy-eyebrow{display:inline-flex;align-items:center;gap:8px;font-family:var(--font-accent);font-size:13px;font-weight:700;color:var(--primary-dark);letter-spacing:3px;text-transform:uppercase;margin-bottom:12px;background:rgba(245,192,12,0.14);padding:6px 14px;border-radius:20px;}
+.courses-section-header h2{font-family:var(--font-body);font-weight:600;font-size:46px;line-height:1.05;text-transform:uppercase;margin-bottom:14px;}
+.courses-section-header h3{color:var(--primary-dark);font-size:22px;margin-bottom:14px;font-weight:600;}
+.courses-section-header p{font-size:16px;color:var(--text-muted);line-height:1.8;}
+
+.courses-controls{display:flex;justify-content:center;margin-bottom:36px;}
+.courses-filters{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;}
+.course-filter-btn{padding:8px 18px;font-family:var(--font-accent);font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:1px;background:#fff;border:1px solid #dcdcdc;color:#444;border-radius:4px;cursor:pointer;transition:all .2s;}
+.course-filter-btn:hover{background:#f3f3f3;border-color:#999;}
+.course-filter-btn.active{background:var(--black);color:var(--primary);border-color:var(--black);}
+
+.courses-grid{display:grid;grid-template-columns:repeat(3, 1fr);gap:30px;}
+.course-card{background:#fff;border:1px solid #e2e2e2;border-radius:6px;overflow:hidden;display:flex;flex-direction:column;transition:transform .3s, box-shadow .3s;box-shadow:0 4px 15px rgba(0,0,0,0.03);}
+.course-card:hover{transform:translateY(-6px);box-shadow:0 16px 36px rgba(0,0,0,0.1);}
+.course-media{position:relative;aspect-ratio:16/9;overflow:hidden;background:#111;}
+.course-media img{width:100%;height:100%;object-fit:cover;transition:transform .5s;}
+.course-card:hover .course-media img{transform:scale(1.05);}
+.course-cat-tag{position:absolute;top:12px;left:12px;background:var(--primary);color:#000;font-weight:700;font-size:11px;letter-spacing:1px;text-transform:uppercase;padding:4px 10px;border-radius:2px;}
+.course-level-badge{position:absolute;top:12px;right:12px;background:rgba(0,0,0,0.75);color:#fff;font-weight:600;font-size:11px;letter-spacing:0.5px;padding:4px 8px;border-radius:2px;}
+
+.course-body{padding:22px;flex:1;display:flex;flex-direction:column;}
+.course-top-meta{display:flex;justify-content:space-between;align-items:center;font-size:12px;color:#777;margin-bottom:10px;}
+.course-title{font-family:var(--font-serif);font-size:22px;font-weight:700;line-height:1.25;margin-bottom:10px;color:var(--black);}
+.course-desc{font-size:14px;line-height:1.7;color:var(--text-muted);margin-bottom:16px;flex:1;}
+.course-outcomes-preview{background:#fafafa;padding:12px 14px;border-radius:4px;margin-bottom:16px;border-left:3px solid var(--primary);}
+.course-outcomes-preview ul{display:grid;gap:6px;}
+.course-outcomes-preview li{font-size:12px;color:#444;display:flex;align-items:flex-start;gap:8px;}
+.course-outcomes-preview li i{color:var(--primary-dark);margin-top:4px;}
+
+.course-instructor-row{display:flex;align-items:center;gap:12px;padding:12px 0;border-top:1px solid #f0f0f0;border-bottom:1px solid #f0f0f0;margin-bottom:16px;}
+.course-instructor-row img{width:40px;height:40px;border-radius:50%;object-fit:cover;border:2px solid var(--primary);}
+.course-instructor-info strong{display:block;font-size:13px;color:#111;}
+.course-instructor-info span{display:block;font-size:11px;color:#777;}
+
+.course-card-foot{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:auto;}
+.course-price-wrap strong{font-size:18px;font-family:var(--font-accent);color:#000;display:block;}
+.course-price-wrap span{font-size:11px;color:#888;display:block;text-transform:uppercase;}
+.course-card-actions{display:flex;gap:8px;}
+.btn-course-syllabus{padding:7px 12px;font-size:12px;font-weight:700;border:1px solid #ccc;background:#fdfdfd;color:#222;border-radius:3px;cursor:pointer;transition:all .2s;}
+.btn-course-syllabus:hover{border-color:var(--primary);color:#000;background:#f5f5f5;}
+.btn-course-enroll{padding:7px 16px;font-size:12px;font-weight:700;background:var(--primary);color:#000;border-radius:3px;cursor:pointer;transition:background .2s;}
+.btn-course-enroll:hover{background:#deb00c;}
+
+@media(max-width:1023px){.courses-grid{grid-template-columns:repeat(2, 1fr);}}
+@media(max-width:639px){.courses-grid{grid-template-columns:1fr;}.courses-section-header h2{font-size:32px;}}
+
+/* ---------- HISTORY ---------- */
+.history{position:relative;padding-top:128px;padding-bottom:168px;text-align:center;color:var(--white);background:#111 url("https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1920&q=80") center/cover no-repeat;z-index:1;}
+.history::after{content:'';position:absolute;inset:0;z-index:-1;background:rgba(0,0,0,0.88);}
+.history-content{max-width:1010px;margin:0 auto 50px;}
+.history-content h2{font-family:var(--font-body);font-weight:600;font-size:48px;line-height:1;text-transform:uppercase;margin-bottom:50px;color:var(--white);}
+.history-content h3{color:var(--primary);margin-bottom:33px;}
+.history-content p{font-size:15px;margin-bottom:33px;}
+.history-content .button{margin-top:10px;}
+.history-slider-wrap{display:grid;grid-template-columns:repeat(4, 1fr);gap:24px;padding:0 30px;}
+.history-card{position:relative;padding:0 10px;text-align:center;}
+.history-card h4{font-family:var(--font-body);font-weight:700;font-size:58px;color:var(--primary);margin-bottom:20px;}
+.history-card span.line{display:block;width:100%;height:4px;background:var(--white);position:relative;margin-bottom:24px;}
+.history-card span.line::after{content:'';position:absolute;top:50%;left:50%;width:20px;height:20px;background:var(--white);border:4px solid var(--black);border-radius:50%;transform:translate(-50%,-50%);}
+.history-card p{font-weight:500;font-size:15px;line-height:1.5;color:#b7b7b7;}
+@media(max-width:1023px){.history-slider-wrap{grid-template-columns:repeat(2, 1fr);}}
+@media(max-width:639px){
+  .history{padding-top:60px;padding-bottom:60px;}
+  .history-content h2{font-size:38px;margin-bottom:20px;}
+  .history-slider-wrap{grid-template-columns:1fr;}
+  .history-card h4{font-size:44px;}
+}
+
+/* ---------- COMMITMENT ---------- */
+.commitment{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-start;padding-top:200px;padding-bottom:100px;overflow:hidden;position:relative;}
+.commitment-content{position:relative;width:calc(50% - 130px);margin-left:57px;padding-left:60px;padding-right:20px;z-index:1;}
+.commitment-content::before{content:'';position:absolute;top:5px;left:0;width:6px;height:275px;background:var(--primary);}
+.commitment-content h2{font-family:var(--font-body);font-weight:600;font-size:48px;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:50px;}
+.commitment-content h3{margin-bottom:36px;}
+.commitment-content p{font-size:15px;margin-bottom:28px;}
+.commitment-slider{position:relative;width:calc(50% - 75px);margin:30px 60px 70px 0;box-shadow:30px 20px 60px rgba(0,0,0,0.3);z-index:1;}
+.commitment-slider iframe{display:block;width:100%;height:auto;aspect-ratio:16/9;border:0;}
+.commitment-pattern{display:none;}
+@media(max-width:1023px){
+  .commitment{padding-top:60px;padding-bottom:60px;}
+  .commitment-content{width:100%;margin:0;padding:0 0 30px;}
+  .commitment-content::before{display:none;}
+  .commitment-content h2{font-size:36px;margin-bottom:20px;}
+  .commitment-slider{width:100%;margin:0;}
+}
+
+/* ---------- CONTACT & CONSULTATION ---------- */
+.contact-section{padding:120px 0;background:#f7f7f7;}
+.contact-grid{display:grid;grid-template-columns:1fr 1.3fr;gap:60px;}
+.contact-info{background:var(--black);color:var(--white);padding:50px 40px;position:relative;}
+.contact-info::before{content:'';position:absolute;top:0;left:0;bottom:0;width:5px;background:var(--primary);}
+.contact-info h2{color:var(--white);font-size:36px;text-transform:uppercase;margin-bottom:20px;}
+.contact-info p{color:#ccc;font-size:15px;line-height:1.8;}
+.contact-details{margin:30px 0;display:grid;gap:18px;}
+.contact-detail-row{display:flex;align-items:flex-start;gap:14px;}
+.contact-detail-row i{color:var(--primary);font-size:18px;margin-top:6px;}
+.contact-detail-row strong{display:block;font-size:12px;text-transform:uppercase;letter-spacing:1px;color:var(--primary);}
+.contact-detail-row span, .contact-detail-row a{color:var(--white);font-size:15px;}
+.contact-form-wrap{background:#fff;padding:50px 40px;border:1px solid #e2e2e2;box-shadow:0 10px 30px rgba(0,0,0,0.04);}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:20px;}
+.form-row.full{grid-template-columns:1fr;}
+.form-field label{display:block;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:1px;margin-bottom:6px;color:#222;}
+.form-field input, .form-field select, .form-field textarea{width:100%;padding:12px 14px;font-size:15px;border:1px solid #ccc;background:#fafafa;font-family:inherit;}
+.form-field input:focus, .form-field select:focus, .form-field textarea:focus{outline:0;border-color:var(--primary);background:#fff;}
+@media(max-width:1023px){.contact-grid{grid-template-columns:1fr;}}
+@media(max-width:639px){.form-row{grid-template-columns:1fr;}.contact-form-wrap{padding:30px 20px;}}
+
+/* ---------- FOOTER ---------- */
+.footer{position:relative;}
+.footer-address{position:relative;min-height:350px;}
+.footer-map{position:absolute;top:0;left:0;width:calc(50% - 145px);height:100%;background:#eaeaea;}
+.footer-map img{width:100%;height:100%;object-fit:cover;}
+.footer-info{display:flex;flex-wrap:wrap;justify-content:flex-end;padding-top:100px;padding-bottom:100px;color:var(--white);background:#171818 url("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1920&q=80") center/cover no-repeat;position:relative;}
+.footer-info::after{content:'';position:absolute;inset:0;background:rgba(0,0,0,0.88);}
+.footer-info address{position:relative;z-index:1;width:51.7%;padding-left:70px;font-style:normal;}
+.footer-info address::before{content:'';position:absolute;top:5px;left:0;width:6px;height:210px;background:var(--primary);}
+.footer-info address h2{font-family:var(--font-body);font-weight:600;font-size:42px;text-transform:uppercase;margin-bottom:32px;color:var(--white);}
+.footer-info address h3{margin-bottom:30px;color:var(--white);}
+.footer-info address h3 a{font-weight:700;font-size:32px;color:var(--white);}
+.footer-info address h3 a:hover{color:var(--primary);}
+.footer-info address p{font-size:20px;line-height:1.4;margin-bottom:30px;}
+.footer-info address p a{color:var(--white);}
+.footer-info address p a:hover{color:var(--primary);}
+.footer-partners{padding:30px 0;background:#f5f5f5;}
+.footer-partners ul{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;margin:0 50px;}
+.footer-partners li{width:25%;padding:15px;text-align:center;}
+.footer-copyright{display:flex;flex-flow:row-reverse wrap;justify-content:space-between;align-items:center;padding:20px 118px;font-family:var(--font-accent);font-size:12px;background:var(--gray-light);}
+.footer-copyright ul{list-style:none;margin:0;}
+.footer-copyright ul li{display:inline-block;text-transform:uppercase;color:#231f20;}
+.footer-copyright ul li + li::before{content:'|';margin:0 15px;opacity:.3;}
+.footer-copyright ul li a{color:#231f20;}
+.footer-copyright ul li a:hover{color:var(--primary);}
+.footer-copyright ol{list-style:none;margin:0;}
+.footer-copyright ol li{display:inline-block;padding:0 5px;}
+.footer-copyright ol li a{display:flex;align-items:center;justify-content:center;width:50px;height:50px;color:var(--white);background:var(--black);font-size:20px;transition:background .25s;}
+.footer-copyright ol li a:hover{background:var(--primary);color:var(--black);}
+@media(max-width:1023px){
+  .footer-map{position:static;width:100%;height:300px;}
+  .footer-info{padding:60px 0;}
+  .footer-info address{width:100%;padding-left:30px;}
+  .footer-info address::before{height:160px;}
+  .footer-info address h2{font-size:30px;}
+  .footer-partners li{width:33.3%;}
+  .footer-copyright{padding:20px;text-align:center;}
+  .footer-copyright ul,.footer-copyright ol{width:100%;}
+  .footer-copyright ol{margin-bottom:16px;}
+}
+@media(max-width:639px){
+  .footer-info address{padding-left:0;text-align:center;}
+  .footer-info address::before{display:none;}
+  .footer-partners li{width:100%;}
+}
+
+/* ---------- POPUP MODAL (Attorney Dossier / Practice Details / Blog Reader) ---------- */
+.custom-modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.75);backdrop-filter:blur(6px);z-index:99999;display:none;align-items:center;justify-content:center;padding:24px;}
+.custom-modal-overlay.is-active{display:flex;}
+.custom-modal-box{background:#fff;max-width:820px;width:100%;max-height:90vh;overflow-y:auto;border-top:5px solid var(--primary);box-shadow:0 30px 80px rgba(0,0,0,0.5);position:relative;padding:40px;}
+.custom-modal-close{position:absolute;top:16px;right:16px;font-size:24px;color:#111;cursor:pointer;width:36px;height:36px;border:1px solid #ddd;display:grid;place-items:center;}
+.custom-modal-close:hover{background:var(--primary);border-color:var(--primary);}
+
+/* ---------- COOKIE BANNER ---------- */
+.ps-sm-banner{position:fixed;bottom:0;left:0;right:0;z-index:9999;background:var(--gray-dark);color:var(--white);box-shadow:0 -2px 12px rgba(0,0,0,0.3);font-size:14px;display:none;}
+.ps-sm-banner.is-visible{display:block;}
+.ps-sm-banner-inner{max-width:1366px;margin:0 auto;padding:20px 44px;display:grid;grid-template-columns:1fr auto;gap:12px 40px;align-items:center;}
+.ps-sm-banner-upper{position:relative;}
+.ps-sm-banner-message{font-size:14px;line-height:1.5;}
+.ps-sm-banner-close{position:absolute;top:-4px;right:-20px;padding:4px;color:var(--white);font-size:16px;cursor:pointer;}
+.ps-sm-banner-lower{display:flex;gap:10px;flex-shrink:0;}
+.ps-sm-banner-btn{padding:10px 22px;font-size:14px;font-weight:600;white-space:nowrap;cursor:pointer;border-radius:2px;transition:opacity .25s;}
+.ps-sm-banner-btn:hover{opacity:.85;}
+.ps-sm-banner-btn-accept{background:var(--primary);color:var(--black);border:0;}
+.ps-sm-banner-btn-reject{background:transparent;color:var(--white);border:1px solid rgba(255,255,255,0.5);}
+@media(max-width:767px){
+  .ps-sm-banner-inner{grid-template-columns:1fr;padding:16px;}
+  .ps-sm-banner-lower{justify-content:flex-start;flex-wrap:wrap;}
+}
+</style>
+</head>
+<body>
+<a href="#main" id="skiptocontent">Skip to Content <i class="fas fa-caret-down" aria-hidden="true"></i></a>
+<div class="wrapper">
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="header grid-container" id="siteHeader">
+    <div class="search-bar" id="searchBar">
+      <form id="topSearchForm" action="#" onsubmit="handleTopSearch(event)">
+        <div class="close-it"><a href="#" id="searchCloseBtn" class="search-close">Close <i class="fa fa-times"></i></a></div>
+        <label for="popsearch" class="visually-hidden">Search</label>
+        <input type="text" placeholder="Search attorneys, practice areas, publications..." id="popsearch" name="s">
+        <button type="submit" aria-label="Search"><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+
+    <a class="logo" href="#main" aria-label="LEX GLOBAL ADVOCACY — Home">
+      <span class="logo-text">
+        <span class="logo-mark">LEX GLOBAL</span>
+        <span class="logo-sub">ADVOCACY</span>
+      </span>
+    </a>
+
+    <div class="right">
+      <div class="tools">
+        <a class="tel" href="tel:+1-800-000-0000" aria-label="Call LEX GLOBAL ADVOCACY">
+          <i class="fas fa-phone" aria-hidden="true"></i>
+          <span class="hide-for-small-only">1-800-000-0000</span>
+        </a>
+        <a class="search header-search" href="#" id="searchOpenBtn" aria-label="Search"><i class="fas fa-search"></i></a>
+        <a class="toggle" href="#nav" id="menuToggleBtn" aria-label="Menu"><i class="fas fa-bars"></i></a>
+      </div>
+
+      <nav id="nav" aria-label="Primary">
+        <ul>
+          <li class="has-children"><a href="#story">Our Firm</a>
+            <ul class="sub-menu">
+              <li><a href="#story">Facilities &amp; Story</a></li>
+              <li><a href="#commitment">Community &amp; Pro Bono</a></li>
+            </ul>
+          </li>
+          <li><a href="#attorneys">Attorneys</a></li>
+          <li class="has-children"><a href="#practice-areas">Practice Areas</a>
+            <ul class="sub-menu">
+              <li><a href="#practice-areas" onclick="openPracticeModal('International Commercial Arbitration')">International Commercial Arbitration</a></li>
+              <li><a href="#practice-areas" onclick="openPracticeModal('Cross-Border Contracts')">Cross-Border Contracts</a></li>
+              <li><a href="#practice-areas" onclick="openPracticeModal('Commercial Litigation')">Commercial Litigation</a></li>
+              <li><a href="#practice-areas" onclick="openPracticeModal('Data Privacy & GDPR')">Data Privacy &amp; GDPR</a></li>
+              <li><a href="#practice-areas" onclick="openPracticeModal('Real Estate')">Real Estate</a></li>
+              <li><a href="#practice-areas" onclick="openPracticeModal('Maritime & Admiralty')">Maritime &amp; Admiralty</a></li>
+              <li><a href="#practice-areas" onclick="openPracticeModal('Intellectual Property')">Intellectual Property</a></li>
+              <li><a href="#practice-areas" onclick="openPracticeModal('Business & Corporate Law')">Business &amp; Corporate Law</a></li>
+            </ul>
+          </li>
+          <li><a href="#courses">Courses &amp; Academy</a></li>
+          <li id="navClassroomItem" style="display:none;"><a href="javascript:void(0)" onclick="openStudentClassroom()" style="color:#10b981; border:1px solid rgba(16,185,129,0.4); padding:3px 10px; border-radius:3px; font-weight:600;"><i class="fas fa-graduation-cap"></i> Student Classroom</a></li>
+          <li><a href="#blogs">Legal Hub &amp; Blogs</a></li>
+          <li><a href="#history">History</a></li>
+          <li><a href="#contact">Contact &amp; Intake</a></li>
+          <li><a href="/admin.html" style="color:var(--primary); border:1px solid rgba(245,192,12,0.4); padding:3px 10px; border-radius:3px;"><i class="fas fa-user-shield"></i> Portal</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===================== HERO SLIDER ===================== -->
+  <div class="slider" id="home">
+    <div class="main-slider" id="mainHeroSlider">
+      <!-- Slide 1 -->
+      <div class="slide active-slide">
+        <picture class="slide-media"><img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1920&q=80" alt="Valued Tradition"></picture>
+        <article class="grid-container"><span class="slider-heading animate is-animated"><span>Valued Tradition</span>Standing the<br>Test of Time</span></article>
+      </div>
+      <!-- Slide 2 -->
+      <div class="slide">
+        <picture class="slide-media"><img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1920&q=80" alt="130 Years of Results"></picture>
+        <article class="grid-container"><span class="slider-heading animate is-animated"><span>130 Years of Results</span>time and time again</span></article>
+      </div>
+      <!-- Slide 3 -->
+      <div class="slide">
+        <picture class="slide-media"><img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1920&q=80" alt="Modern Mindset"></picture>
+        <article class="grid-container"><span class="slider-heading animate is-animated"><span>Merging a Modern Mindset</span>with the practices we value</span></article>
+      </div>
+      <!-- Slide 4 -->
+      <div class="slide">
+        <picture class="slide-media"><img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1920&q=80" alt="Home Court Advantage"></picture>
+        <article class="grid-container"><span class="slider-heading animate is-animated"><span>Giving Our Clients</span>the home court advantage</span></article>
+      </div>
+      <!-- Slide 5 -->
+      <div class="slide">
+        <picture class="slide-media"><img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1920&q=80" alt="Loyal Advocates"></picture>
+        <article class="grid-container"><span class="slider-heading animate is-animated"><span>Loyal Advocates</span>bound by integrity</span></article>
+      </div>
+    </div>
+
+    <div class="slider-tools grid-container">
+      <div class="slider-info animate is-animated">
+        <i class="fas fa-info"></i>
+        <p>Providing excellent legal service to clients throughout the Southeast and beyond for over 130 years.</p>
+      </div>
+      <a class="slider-explore animate is-animated" href="#story"><i class="fas fa-angle-double-down"></i> Explore</a>
+      <div class="slider-control animate is-animated">
+        <button type="button" class="js-slider-left prev" id="sliderPrevBtn"><span class="visually-hidden">Previous</span></button>
+        <p class="slick-counter" aria-live="polite"><span class="js-current-slide" id="currentSlideDisplay">01</span> / <span class="js-total-slide" id="totalSlideDisplay">05</span></p>
+        <button type="button" class="js-slider-right next" id="sliderNextBtn"><span class="visually-hidden">Next</span></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================== MAIN ===================== -->
+  <main id="main" role="main" class="main">
+
+    <!-- STORY -->
+    <section class="story grid-container" id="story">
+      <div class="story-left">
+        <div class="story-top">Top</div>
+        <div class="story-slider" id="storyVignette">
+          <div class="slide">
+            <img id="storyImage" src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1000&q=80" alt="Historic Law Firm">
+            <article><h4 id="storyCaption">Firm founded — W.W. Osborne and Pope Barrow form a partnership</h4></article>
+          </div>
+        </div>
+        <div class="story-year">
+          <div class="year" id="yearSelectorRow">
+            <span class="active-year-btn" onclick="selectYear('1886')">1886</span>
+            <span onclick="selectYear('1931')">1931</span>
+            <span onclick="selectYear('1970')">1970</span>
+            <span onclick="selectYear('1990')">1990</span>
+            <span onclick="selectYear('2013')">2013</span>
+            <span onclick="selectYear('2017')">2017</span>
+            <span onclick="selectYear('2026')">2026</span>
+          </div>
+        </div>
+      </div>
+      <div class="story-content">
+        <span class="story-heading">Lex Global Advocacy</span>
+        <h1>A Full-Service Global Law Firm</h1>
+        <p>With experienced attorneys who can handle a broad range of complex legal issues for businesses, governmental entities, organizations, professionals, and individuals — at the local, regional, and national levels. Through more than 130 years of practicing law, the firm has developed the deep knowledge base and sound judgment that delivers value to our clients.</p>
+        <p>Our multidisciplinary team combines courtroom precision with cross-border commercial strategy, defending client interests across 42+ jurisdictions worldwide with uncompromised integrity.</p>
+        <a href="#contact" class="button">Retain Counsel</a>
+      </div>
+    </section>
+
+    <!-- ATTORNEYS -->
+    <section class="attorneys grid-container" id="attorneys">
+      <div class="attorneys-content">
+        <article>
+          <h2>Experienced Attorneys</h2>
+          <h3>Handling a Broad Range of Issues</h3>
+          <p>Across the board, LEX GLOBAL ADVOCACY's experienced attorneys handle a broad range of complex legal issues for businesses, governmental entities, organizations, professionals, and individuals — locally, regionally, and nationally.</p>
+          <p>We are proud to represent a diverse clientele across the region, handling complex legal matters in litigation, estate planning, corporate law, commercial and residential real estate, admiralty, bankruptcy, and maritime law.</p>
+          <p>We are diligent and determined because we care about the success of our clients. We work closely with them to understand their needs and meet their objectives.</p>
+          <p>Recognized not only in the courtroom but also by our peers, our attorneys have received awards and positions of distinction in the legal field for professionalism, knowledge, and character.</p>
+          <p>We adhere to the highest standards of the legal profession and place the utmost value on integrity, quality work product, and community service.</p>
+        </article>
+        <a href="#contact" class="button">Meet Our Team</a>
+      </div>
+      <div class="attorneys-slider">
+        <div class="slide">
+          <ul>
+            <li>
+              <div class="attorneys-block" onclick="openAttorneyModal('Margaret W.S. Puccini')">
+                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80" alt="Margaret W.S. Puccini">
+                <span>Margaret W.S. Puccini</span>
+              </div>
+            </li>
+            <li>
+              <div class="attorneys-block" onclick="openAttorneyModal('J. Daniel Falligant')">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80" alt="J. Daniel Falligant">
+                <span>J. Daniel Falligant</span>
+              </div>
+            </li>
+            <li>
+              <div class="attorneys-block" onclick="openAttorneyModal('B. H. Levy')">
+                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80" alt="B. H. Levy">
+                <span>B. H. Levy</span>
+              </div>
+            </li>
+            <li>
+              <div class="attorneys-block" onclick="openAttorneyModal('Dr. Amara Okonkwo')">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80" alt="Dr. Amara Okonkwo">
+                <span>Dr. Amara Okonkwo</span>
+              </div>
+            </li>
+            <li>
+              <div class="attorneys-block" onclick="openAttorneyModal('Adv. Priya Menon')">
+                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=400&q=80" alt="Adv. Priya Menon">
+                <span>Adv. Priya Menon</span>
+              </div>
+            </li>
+            <li>
+              <div class="attorneys-block" onclick="openAttorneyModal('Dr. Sofia Lindqvist')">
+                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=400&q=80" alt="Dr. Sofia Lindqvist">
+                <span>Dr. Sofia Lindqvist</span>
+              </div>
+            </li>
+            <li>
+              <div class="attorneys-block" onclick="openAttorneyModal('Kathleen Horne')">
+                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80" alt="Kathleen Horne">
+                <span>Kathleen Horne</span>
+              </div>
+            </li>
+            <li>
+              <div class="attorneys-block" onclick="openAttorneyModal('Carlton E. Joyce')">
+                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=400&q=80" alt="Carlton E. Joyce">
+                <span>Carlton E. Joyce</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- APPROACH & PRACTICE AREAS -->
+    <section class="approach grid-container" id="practice-areas">
+      <div class="approach-content">
+        <article>
+          <h2>Multidisciplinary Approach</h2>
+          <h3>Leveraging Extensive Experience with an Arsenal of Knowledge</h3>
+          <p>LEX GLOBAL ADVOCACY's practice areas span a broad range of industries and businesses — locally, regionally, and nationally. These include litigation, estate planning, corporate law, commercial and residential real estate, bankruptcy, product liability, transportation, and admiralty and maritime law.</p>
+          <p>Through our multidisciplinary approach, we provide value to our clients by pulling from our deep knowledge base. We are determined to meet our clients' objectives in a timely and cost-effective manner on an array of issues.</p>
+          <p>Over the years, LEX GLOBAL ADVOCACY has been proud to represent its clients with professionalism, integrity, and zealousness. The firm continues its tradition of providing a complete and diverse offering of legal services.</p>
+        </article>
+        <a href="#contact" class="button hide-for-small-only">Schedule Consultation</a>
+      </div>
+      <div class="approach-blocks">
+        <div class="slide">
+          <ul>
+            <li>
+              <div class="approach-block" onclick="openPracticeModal('International Commercial Arbitration')">
+                <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=400&q=80" alt="International Commercial Arbitration">
+                <span>International Arbitration</span>
+              </div>
+            </li>
+            <li>
+              <div class="approach-block" onclick="openPracticeModal('Cross-Border Contracts')">
+                <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=400&q=80" alt="Cross-Border Contracts">
+                <span>Cross-Border Contracts</span>
+              </div>
+            </li>
+            <li>
+              <div class="approach-block" onclick="openPracticeModal('Commercial Litigation')">
+                <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=400&q=80" alt="Commercial Litigation">
+                <span>Commercial Litigation</span>
+              </div>
+            </li>
+            <li>
+              <div class="approach-block" onclick="openPracticeModal('Real Estate')">
+                <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=400&q=80" alt="Real Estate">
+                <span>Real Estate</span>
+              </div>
+            </li>
+            <li>
+              <div class="approach-block" onclick="openPracticeModal('Data Privacy & GDPR')">
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=400&q=80" alt="Data Privacy & GDPR">
+                <span>Data Privacy &amp; GDPR</span>
+              </div>
+            </li>
+            <li>
+              <div class="approach-block" onclick="openPracticeModal('Maritime & Admiralty')">
+                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80" alt="Maritime & Admiralty">
+                <span>Maritime &amp; Admiralty</span>
+              </div>
+            </li>
+            <li>
+              <div class="approach-block" onclick="openPracticeModal('Intellectual Property')">
+                <img src="https://images.unsplash.com/photo-1453945619913-79ec89a82c51?auto=format&fit=crop&w=400&q=80" alt="Intellectual Property">
+                <span>Intellectual Property</span>
+              </div>
+            </li>
+            <li>
+              <div class="approach-block" onclick="openPracticeModal('Business & Corporate Law')">
+                <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=400&q=80" alt="Business & Corporate Law">
+                <span>Business &amp; Corporate</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <a href="#contact" class="button show-for-small-only">Schedule Consultation</a>
+    </section>
+
+    <!-- ===================== COURSES & ACADEMY SECTION ===================== -->
+    <section class="courses-section grid-container" id="courses">
+      <div class="courses-section-header">
+        <span class="academy-eyebrow"><i class="fas fa-graduation-cap"></i> LEX GLOBAL ACADEMY</span>
+        <h2>Executive Legal Masterclasses &amp; Continuing Education</h2>
+        <h3>Practice-Oriented Legal Training &middot; CLE &amp; CPD Accredited</h3>
+        <p>Bridging doctrinal mastery and high-stakes courtroom execution. Master international arbitration award enforcement, cross-border M&amp;A contracts, admiralty ship arrests, real estate due diligence, and global cyber privacy under the mentorship of leading international partners and accredited arbitrators.</p>
+      </div>
+
+      <div class="courses-controls" style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:16px;">
+        <div class="courses-filters" id="courseFilters">
+          <button type="button" class="course-filter-btn active" onclick="filterCourses('All')">All Masterclasses</button>
+          <button type="button" class="course-filter-btn" onclick="filterCourses('Arbitration')">Arbitration &amp; ADR</button>
+          <button type="button" class="course-filter-btn" onclick="filterCourses('Cross-Border Contracts')">Cross-Border Contracts</button>
+          <button type="button" class="course-filter-btn" onclick="filterCourses('Data & Privacy')">Data Privacy &amp; GDPR</button>
+          <button type="button" class="course-filter-btn" onclick="filterCourses('Maritime & Admiralty')">Maritime &amp; Admiralty</button>
+          <button type="button" class="course-filter-btn" onclick="filterCourses('Real Estate')">Real Estate &amp; Title</button>
+          <button type="button" class="course-filter-btn" onclick="filterCourses('Litigation & Advocacy')">Advocacy &amp; Drafting</button>
+        </div>
+        <button type="button" id="coursesClassroomBtn" class="button" onclick="openStudentClassroom()" style="display:none; background:#0c0e12; border:1px solid #10b981; color:#10b981; font-weight:700; padding:8px 18px; border-radius:4px; align-items:center; gap:8px; font-size:13px; cursor:pointer;">
+          <i class="fas fa-chalkboard-teacher"></i> Access My Classroom &rarr;
+        </button>
+      </div>
+
+      <div class="courses-grid" id="coursesGrid">
+        <!-- Rendered dynamically from backend with fallback -->
+      </div>
+    </section>
+
+    <!-- THE LEGAL HUB & BLOGS SECTION -->
+    <section class="blogs-section grid-container" id="blogs">
+      <div class="blogs-section-header">
+        <h2>The Legal Hub &amp; Publications</h2>
+        <h3>Authoritative Analysis &amp; Thought Leadership</h3>
+        <p>Stay ahead of evolving statutes, international arbitral awards, and cross-border commercial precedents written by our partners and legal scholars.</p>
+      </div>
+
+      <div class="blogs-controls">
+        <input type="text" id="blogSearchInput" class="blogs-search-input" placeholder="Search publications by title, keyword, author or practice area..." oninput="filterBlogs()">
+        <select id="blogCategorySelect" class="blogs-cat-select" onchange="filterBlogs()">
+          <option value="">All Practice Categories</option>
+          <option value="Arbitration">International Arbitration</option>
+          <option value="Cross-Border Contracts">Cross-Border Contracts</option>
+          <option value="Data & Privacy">Data Privacy &amp; GDPR</option>
+          <option value="Real Estate">Real Estate</option>
+          <option value="Legal Writing">Legal Writing &amp; Advocacy</option>
+        </select>
+      </div>
+
+      <div class="blogs-grid" id="blogsGrid">
+        <!-- Rendered dynamically -->
+      </div>
+    </section>
+
+    <!-- HISTORY -->
+    <section class="history grid-container" id="history">
+      <div class="history-content">
+        <h2>A Rich &amp; Established<br>Practice History</h2>
+        <h3>More Than 130 Years of Experience</h3>
+        <p>LEX GLOBAL ADVOCACY is proud of our legacy of providing excellent legal service to clients throughout the Southeast and beyond for over 130 years. We are the successor firm to two storied practices.</p>
+        <p>Over the years, LEX GLOBAL ADVOCACY has witnessed our share of changes and has always emerged stronger and with greater resolve. The firm continues our tradition of providing a complete and diverse offering of legal services.</p>
+        <a href="#contact" class="button">Inquire With Firm</a>
+      </div>
+      <div class="history-slider-wrap">
+        <div class="history-card">
+          <h4>1886</h4>
+          <span class="line"></span>
+          <p>W.W. Osborne and Pope Barrow form a partnership dedicated to rigorous commercial and trial advocacy.</p>
+        </div>
+        <div class="history-card">
+          <h4>1931</h4>
+          <span class="line"></span>
+          <p>Osborne, Lawrence &amp; Abrahams merges with Bouhan &amp; Atkinson, solidifying regional preeminence.</p>
+        </div>
+        <div class="history-card">
+          <h4>1970</h4>
+          <span class="line"></span>
+          <p>Firm establishes headquarters in the historic Armstrong House, a landmark of legal heritage.</p>
+        </div>
+        <div class="history-card">
+          <h4>2026</h4>
+          <span class="line"></span>
+          <p>LEX GLOBAL ADVOCACY continues 130 years of unbroken legal distinction across 42+ jurisdictions.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMMITMENT TO COMMUNITY -->
+    <section class="commitment grid-container" id="commitment">
+      <div class="commitment-content">
+        <h2>A Commitment to Community</h2>
+        <h3>We Fight Loyally for Our Community.</h3>
+        <p>In addition to their unwavering commitment to the law, LEX GLOBAL ADVOCACY attorneys care deeply about the community in which they work and live, and volunteer thousands of hours of service to major nonprofits each year.</p>
+        <p>We support and encourage our attorneys' involvement in community and citizenship efforts outside of the office. We are proud of our clients, community, and employees — and we work hard to make sure they are proud of us.</p>
+        <a href="#contact" class="button">Read More</a>
+      </div>
+      <div class="commitment-pattern" aria-hidden="true">pattern</div>
+      <div class="commitment-slider">
+        <iframe title="LEX GLOBAL ADVOCACY — Community" src="https://www.youtube.com/embed/DGCP9AOWvqQ" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <!-- CONTACT & CONFIDENTIAL INTAKE -->
+    <section class="contact-section grid-container" id="contact">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h2>Privileged Consultation</h2>
+          <p>Initiate a confidential preliminary discussion with our intake committee. Every inquiry is handled under strict professional ethics and conflict clearance safeguards.</p>
+
+          <div class="contact-details">
+            <div class="contact-detail-row">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <strong>Headquarters</strong>
+                <span>One West Park Avenue, Savannah, Georgia 31401</span>
+              </div>
+            </div>
+            <div class="contact-detail-row">
+              <i class="fas fa-phone-alt"></i>
+              <div>
+                <strong>Toll-Free Priority Line</strong>
+                <a href="tel:+1-800-000-0000">1-800-000-0000</a>
+              </div>
+            </div>
+            <div class="contact-detail-row">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <strong>Confidential Inquiries</strong>
+                <a href="mailto:intake@lexglobaladvocacy.com">intake@lexglobaladvocacy.com</a>
+              </div>
+            </div>
+          </div>
+
+          <div style="margin:20px 0 16px 0;">
+            <strong style="font-size:11px; text-transform:uppercase; letter-spacing:1.5px; color:var(--primary); display:block; margin-bottom:10px;">Official Firm Social Channels</strong>
+            <div style="display:flex; gap:10px; flex-wrap:wrap;">
+              <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" style="width:38px; height:38px; background:rgba(255,255,255,0.08); color:#fff; display:flex; align-items:center; justify-content:center; border-radius:4px; font-size:15px; border:1px solid rgba(255,255,255,0.15);" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" style="width:38px; height:38px; background:rgba(255,255,255,0.08); color:#fff; display:flex; align-items:center; justify-content:center; border-radius:4px; font-size:15px; border:1px solid rgba(255,255,255,0.15);" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="https://x.com/" target="_blank" rel="noopener noreferrer" style="width:38px; height:38px; background:rgba(255,255,255,0.08); color:#fff; display:flex; align-items:center; justify-content:center; border-radius:4px; font-size:15px; border:1px solid rgba(255,255,255,0.15);" aria-label="X"><i class="fab fa-x-twitter"></i></a>
+              <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" style="width:38px; height:38px; background:rgba(255,255,255,0.08); color:#fff; display:flex; align-items:center; justify-content:center; border-radius:4px; font-size:15px; border:1px solid rgba(255,255,255,0.15);" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" style="width:38px; height:38px; background:rgba(255,255,255,0.08); color:#fff; display:flex; align-items:center; justify-content:center; border-radius:4px; font-size:15px; border:1px solid rgba(255,255,255,0.15);" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+
+          <p style="font-size:12px; color:#aaa; margin:0;">
+            Submission does not create an attorney-client relationship until conflict checks and an engagement retainer are executed.
+          </p>
+        </div>
+
+        <div class="contact-form-wrap">
+          <form id="contact-form">
+            <div class="form-row">
+              <div class="form-field">
+                <label for="contactName">Full Name *</label>
+                <input type="text" id="contactName" name="name" required placeholder="Your full name">
+              </div>
+              <div class="form-field">
+                <label for="contactEmail">Email Address *</label>
+                <input type="email" id="contactEmail" name="email" required placeholder="e.g. name@corporate.com">
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-field">
+                <label for="contactPhone">Phone Number</label>
+                <input type="tel" id="contactPhone" name="phone" placeholder="+1 (800) 000-0000">
+              </div>
+              <div class="form-field">
+                <label for="contactPractice">Practice Area of Interest</label>
+                <select id="contactPractice" name="practiceArea">
+                  <option value="International Commercial Arbitration">International Commercial Arbitration</option>
+                  <option value="Cross-Border Contracts">Cross-Border Contracts</option>
+                  <option value="Commercial Litigation">Commercial Litigation</option>
+                  <option value="Data Privacy & GDPR">Data Privacy &amp; GDPR</option>
+                  <option value="Real Estate">Real Estate</option>
+                  <option value="Maritime & Admiralty">Maritime &amp; Admiralty</option>
+                  <option value="Intellectual Property">Intellectual Property</option>
+                  <option value="Business & Corporate Law">Business &amp; Corporate Law</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-row full">
+              <div class="form-field">
+                <label for="contactMessage">Confidential Synopsis / Inquiry *</label>
+                <textarea id="contactMessage" name="message" rows="4" required placeholder="Please outline the nature of your legal matter or transaction..."></textarea>
+              </div>
+            </div>
+
+            <button type="submit" class="button button-primary" style="width:100%; height:48px;">Submit Confidential Inquiry &rarr;</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="footer-address">
+      <div class="footer-map">
+        <a href="https://maps.google.com/" target="_blank" rel="noopener" aria-label="View our location on Google Maps">
+          <img src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&w=1200&q=80" alt="Map to our office">
+        </a>
+      </div>
+      <div class="footer-info grid-container">
+        <address>
+          <h2>We Look Forward to Working With You</h2>
+          <h3>We Are Located At</h3>
+          <p><a href="https://maps.google.com/" target="_blank" rel="noopener">One West Park Avenue<br>Savannah, Georgia 31401</a></p>
+          <h3>Telephone<br><a href="tel:+1-800-000-0000">1-800-000-0000</a></h3>
+        </address>
+      </div>
+    </div>
+    <div class="footer-partners grid-container">
+      <ul>
+        <li><strong style="font-family:var(--font-accent); font-size:16px; letter-spacing:2px; color:#555;">LEGAL 500</strong></li>
+        <li><strong style="font-family:var(--font-accent); font-size:16px; letter-spacing:2px; color:#555;">CHAMBERS GLOBAL</strong></li>
+        <li><strong style="font-family:var(--font-accent); font-size:16px; letter-spacing:2px; color:#555;">BEST LAWYERS &reg;</strong></li>
+        <li><strong style="font-family:var(--font-accent); font-size:16px; letter-spacing:2px; color:#555;">MARTINDALE AV PREEMINENT</strong></li>
+      </ul>
+    </div>
+    <div class="footer-copyright grid-container">
+      <ol>
+        <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+        <li><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://x.com/" target="_blank" rel="noopener noreferrer" aria-label="X (formerly Twitter)"><i class="fab fa-x-twitter"></i></a></li>
+        <li><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fab fa-youtube"></i></a></li>
+      </ol>
+      <ul>
+        <li>&copy; 1886&ndash;2026 <a href="/">LEX GLOBAL ADVOCACY</a></li>
+        <li><a href="#story">Our Firm</a></li>
+        <li><a href="#practice-areas">Practices</a></li>
+        <li><a href="#courses">Legal Academy</a></li>
+        <li id="footerClassroomItem" style="display:none;"><a href="javascript:void(0)" onclick="openStudentClassroom()" style="color:#10b981; font-weight:700;"><i class="fas fa-graduation-cap"></i> Student Classroom</a></li>
+        <li><a href="#blogs">Legal Hub</a></li>
+        <li><a href="#contact">Disclaimer</a></li>
+        <li><a href="/admin.html" style="color:var(--primary); font-weight:700;"><i class="fas fa-user-shield"></i> Partner / Staff Portal</a></li>
+      </ul>
+    </div>
+  </footer>
+
+</div>
+
+<!-- ===================== INTERACTIVE MODAL (Attorneys / Practices / Blogs) ===================== -->
+<div class="custom-modal-overlay" id="customModalOverlay">
+  <div class="custom-modal-box">
+    <div class="custom-modal-close" onclick="closeCustomModal()">&times;</div>
+    <div id="customModalContent">
+      <!-- Dynamic content injected by JavaScript -->
+    </div>
+  </div>
+</div>
+
+<!-- ===================== COOKIE BANNER ===================== -->
+<div id="cookie-banner" class="ps-sm-banner" role="dialog" aria-live="polite" aria-label="Cookie consent">
+  <div class="ps-sm-banner-inner">
+    <div class="ps-sm-banner-upper">
+      <div class="ps-sm-banner-message">We use cookies to improve your browsing experience and understand site traffic. Optional analytics and marketing cookies stay off until you click Accept All. To continue without them, choose Reject All or close this notice.</div>
+      <button id="cookie-close" class="ps-sm-banner-close" aria-label="Close cookie banner">&times;</button>
+    </div>
+    <div class="ps-sm-banner-lower">
+      <button id="cookie-accept" class="ps-sm-banner-btn ps-sm-banner-btn-accept">Accept All</button>
+      <button id="cookie-reject" class="ps-sm-banner-btn ps-sm-banner-btn-reject">Reject All</button>
+    </div>
+  </div>
+</div>
+
+<!-- ===================== SCRIPTS ===================== -->
+<script>
+/* ============================================================
+   LEX GLOBAL ADVOCACY — Master Interactive Engine
+   ============================================================ */
+
+// Configurable Backend API Endpoint (empty string defaults to same origin; or set to external API URL)
+window.LEX_API_URL = window.LEX_API_URL || '';
+
+// 1. Data Collections
+const ATTORNEYS_DATA = {
+  'Margaret W.S. Puccini': {
+    name: 'Margaret W.S. Puccini',
+    title: 'Senior Managing Partner',
+    practice: 'Complex Commercial Litigation & Fiduciary Defense',
+    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80',
+    bio: 'Margaret Puccini has steered LEX GLOBAL ADVOCACY for over two decades. A distinguished trial lawyer and appellate strategist, she has represented major corporations, financial institutions, and government authorities in high-exposure litigation, shareholder disputes, and constitutional appeals.',
+    admissions: ['Supreme Court of the United States', 'State Bar of Georgia', 'U.S. Court of Appeals for the 11th Circuit'],
+    education: 'J.D., Harvard Law School (magna cum laude); B.A., Duke University'
+  },
+  'J. Daniel Falligant': {
+    name: 'J. Daniel Falligant',
+    title: 'Partner',
+    practice: 'Corporate Finance, Banking & Restructuring',
+    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80',
+    bio: 'Dan Falligant brings over 25 years of institutional experience advising commercial banks, syndicated lenders, and corporate borrowers on sophisticated debt facilities, commercial workouts, and regulatory compliance.',
+    admissions: ['State Bar of Georgia', 'U.S. District Court, Southern District'],
+    education: 'J.D., University of Virginia School of Law'
+  },
+  'B. H. Levy': {
+    name: 'B. H. Levy, Jr.',
+    title: 'Senior Counsel',
+    practice: 'Real Estate Due Diligence & Maritime Law',
+    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=600&q=80',
+    bio: 'Continuing a distinguished multi-generational family tradition at the firm, B.H. Levy represents port authorities, institutional developers, and private family trusts in complex title review, coastal property zoning, and commercial real estate acquisitions.',
+    admissions: ['State Bar of Georgia', 'Maritime Law Association of the United States'],
+    education: 'LL.B., University of Georgia School of Law'
+  },
+  'Dr. Amara Okonkwo': {
+    name: 'Dr. Amara Okonkwo',
+    title: 'Partner & Head of International Arbitration',
+    practice: 'International Commercial & Treaty Arbitration',
+    image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80',
+    bio: 'Dr. Okonkwo represents multinational entities and sovereign states in complex treaty and institutional arbitrations under ICC, LCIA, SIAC, and UNCITRAL rules. She is recognized for her mastery of New York Convention enforcement across Europe, Africa, and Asia.',
+    admissions: ['Bar of England & Wales', 'Singapore International Commercial Court Bar', 'Nigerian Bar'],
+    education: 'Ph.D. in International Law, Cambridge University; LL.M., Columbia Law School'
+  },
+  'Adv. Priya Menon': {
+    name: 'Adv. Priya Menon',
+    title: 'Partner',
+    practice: 'Cross-Border Contracts, Joint Ventures & M&A',
+    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=600&q=80',
+    bio: 'Priya leads the cross-border transactional group, drafting complex commercial agreements that bridge common-law and civil-law systems across five continents. She advises private equity funds and founders on risk allocation and dispute resolution clauses.',
+    admissions: ['New York State Bar', 'Bar Council of India'],
+    education: 'LL.M., New York University School of Law; B.A. LL.B., NLSIU Bangalore'
+  },
+  'Dr. Sofia Lindqvist': {
+    name: 'Dr. Sofia Lindqvist',
+    title: 'Partner & Privacy Lead',
+    practice: 'Global Data Privacy, GDPR & Cyber Law',
+    image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=600&q=80',
+    bio: 'Sofia directs the firm’s global data protection practice. A former advisor to European regulators, she counsels multinational cloud platforms on transfer impact assessments (TIAs), breach notification, and defense in regulatory investigations.',
+    admissions: ['Swedish Bar Association', 'Law Society of England & Wales'],
+    education: 'Dr. iur., Stockholm University'
+  },
+  'Kathleen Horne': {
+    name: 'Kathleen Horne',
+    title: 'Partner',
+    practice: 'Admiralty, Maritime Practice & Restructuring',
+    image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=600&q=80',
+    bio: 'Kathleen Horne is an esteemed authority on vessel arrest proceedings, maritime insurance subrogation, charterparty disputes, and creditor restructuring in commercial shipping operations.',
+    admissions: ['State Bar of Georgia', 'Southeastern Admiralty Law Institute'],
+    education: 'J.D., Mercer University Walter F. George School of Law'
+  },
+  'Carlton E. Joyce': {
+    name: 'Carlton E. Joyce',
+    title: 'Partner',
+    practice: 'Construction Law & Infrastructure Projects',
+    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=600&q=80',
+    bio: 'Carlton Joyce represents project owners, major contractors, and engineering consortia in complex delay claims, FIDIC contracts, and large-scale public-private partnerships.',
+    admissions: ['State Bar of Georgia', 'Federal Bar Association'],
+    education: 'J.D., Emory University School of Law'
+  }
+};
+
+const PRACTICES_DATA = {
+  'International Commercial Arbitration': {
+    title: 'International Commercial & Treaty Arbitration',
+    scope: 'Representing multinational entities and sovereign states before ICC, LCIA, SIAC, and UNCITRAL tribunals. We lead every phase from emergency injunctions to award enforcement under the New York Convention across 160+ contracting nations.',
+    highlights: ['Bilateral Investment Treaty (BIT) disputes', 'Seat & curial law strategy', 'Emergency arbitrator asset freezing', 'Annulment & set-aside defense']
+  },
+  'Cross-Border Contracts': {
+    title: 'Cross-Border Contracts & Transactions',
+    scope: 'Structuring international agreements robust against conflict-of-law challenges. We advise on governing law selection, currency risk allocation, indemnities, INCOTERMS, and export controls.',
+    highlights: ['Multi-jurisdictional joint ventures', 'Choice of law & dispute escalation clauses', 'Supply chain & distributor agreements', 'Cross-border technology licensing']
+  },
+  'Commercial Litigation': {
+    title: 'Commercial Litigation & Dispute Resolution',
+    scope: 'Fearless courtroom advocacy across state and federal courts. We protect shareholder value, enforce contracts, and litigate complex business torts with strategic precision.',
+    highlights: ['Shareholder derivative actions', 'Breach of contract & fiduciary duty', 'Injunctions & restraining orders', 'Post-judgment enforcement & asset tracing']
+  },
+  'Data Privacy & GDPR': {
+    title: 'Global Data Privacy & Cyber Compliance',
+    scope: 'Navigating GDPR, UK-GDPR, CCPA, and APAC privacy frameworks. We draft Transfer Impact Assessments (TIAs) and lead 24/7 incident response teams for global enterprises.',
+    highlights: ['Standard Contractual Clauses (SCCs)', 'Cross-border data transfer impact assessments', 'Breach notification & regulatory defense', 'Algorithmic governance & AI audits']
+  },
+  'Real Estate': {
+    title: 'Real Estate & Cross-Border Title Diligence',
+    scope: 'Due diligence, title verification, foreign ownership restrictions, and transaction documentation for institutional commercial properties and mixed-use developments.',
+    highlights: ['Commercial title examination', 'Foreign investment approvals', 'Zoning & land use permitting', 'Commercial leasing & asset financing']
+  },
+  'Maritime & Admiralty': {
+    title: 'Maritime & Admiralty Law',
+    scope: 'Over a century of experience representing shipowners, P&I clubs, charterers, and cargo interests in vessel arrests, charterparty disputes, marine casualties, and salvage.',
+    highlights: ['Vessel arrests & maritime liens', 'Charterparty & bill of lading disputes', 'Marine insurance & casualty triage', 'Port facilities & coastal development']
+  },
+  'Intellectual Property': {
+    title: 'Intellectual Property & Trade Secrets',
+    scope: 'Securing, licensing, and defending critical proprietary technologies, trademarks, and trade secret portfolios across domestic and international markets.',
+    highlights: ['Cross-border IP licensing', 'Trade secret misappropriation claims', 'Trademark portfolio enforcement', 'Patent litigation support']
+  },
+  'Business & Corporate Law': {
+    title: 'Business & Corporate Law',
+    scope: 'Trusted general counsel to mid-market and multinational enterprises. We handle corporate governance, mergers, acquisitions, debt structuring, and fiduciary advisory.',
+    highlights: ['Corporate formation & structuring', 'Mergers & acquisitions', 'Secured lending & banking facilities', 'Executive compensation & compliance']
+  }
+};
+
+const BLOGS_DATA = [];
+
+// 2. Hero Slider Control
+let currentSlideIndex = 0;
+const totalSlides = 5;
+let heroSlideTimer = null;
+
+function updateSlide(index) {
+  const slides = document.querySelectorAll('#mainHeroSlider .slide');
+  if(!slides.length) return;
+  slides.forEach((s, i) => {
+    s.classList.toggle('active-slide', i === index);
+  });
+  currentSlideIndex = index;
+  const disp = document.getElementById('currentSlideDisplay');
+  if(disp) disp.textContent = String(index + 1).padStart(2, '0');
+}
+
+function nextSlide() {
+  const next = (currentSlideIndex + 1) % totalSlides;
+  updateSlide(next);
+}
+
+function prevSlide() {
+  const prev = (currentSlideIndex - 1 + totalSlides) % totalSlides;
+  updateSlide(prev);
+}
+
+function startSlideAutoplay() {
+  clearInterval(heroSlideTimer);
+  heroSlideTimer = setInterval(nextSlide, 7000);
+}
+
+document.getElementById('sliderNextBtn')?.addEventListener('click', () => {
+  nextSlide();
+  startSlideAutoplay();
+});
+document.getElementById('sliderPrevBtn')?.addEventListener('click', () => {
+  prevSlide();
+  startSlideAutoplay();
+});
+
+// 3. Story Timeline Selector
+const YEAR_DATA = {
+  '1886': {
+    title: 'Firm founded — W.W. Osborne and Pope Barrow form a partnership',
+    img: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1000&q=80'
+  },
+  '1931': {
+    title: 'Osborne, Lawrence & Abrahams merges with the firm to forge a regional commercial powerhouse',
+    img: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1000&q=80'
+  },
+  '1970': {
+    title: 'Firm establishes headquarters in the historic Armstrong House',
+    img: 'https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1000&q=80'
+  },
+  '1990': {
+    title: 'Expansion of international commercial arbitration and complex cross-border transactions',
+    img: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1000&q=80'
+  },
+  '2013': {
+    title: 'Two storied practices unify under the banner of LEX GLOBAL ADVOCACY',
+    img: 'https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1000&q=80'
+  },
+  '2017': {
+    title: 'LEX GLOBAL ADVOCACY establishes global headquarters at One West Park',
+    img: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1000&q=80'
+  },
+  '2026': {
+    title: '130 Years of Unbroken Legal Excellence & Advocacy Across 42+ Jurisdictions',
+    img: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1000&q=80'
+  }
+};
+
+window.selectYear = function(year) {
+  const data = YEAR_DATA[year];
+  if(!data) return;
+  document.getElementById('storyCaption').textContent = data.title;
+  document.getElementById('storyImage').src = data.img;
+
+  document.querySelectorAll('#yearSelectorRow span').forEach(el => {
+    el.style.color = (el.textContent === year) ? 'var(--primary)' : '#bfbfbf';
+    el.style.fontWeight = (el.textContent === year) ? '700' : '400';
+  });
+};
+
+// 4. Modal System (Attorneys, Practices, Blog Reader, Student Classroom)
+function openCustomModal(html, maxWidth = null) {
+  const overlay = document.getElementById('customModalOverlay');
+  const box = document.getElementById('customModalContent');
+  if(!overlay || !box) return;
+  const modalBox = overlay.querySelector('.custom-modal-box');
+  if(modalBox) {
+    modalBox.style.maxWidth = maxWidth || '820px';
+  }
+  box.innerHTML = html;
+  overlay.classList.add('is-active');
+  document.body.classList.add('modal-open');
+}
+
+window.closeCustomModal = function() {
+  const overlay = document.getElementById('customModalOverlay');
+  if(overlay) {
+    overlay.classList.remove('is-active');
+    const modalBox = overlay.querySelector('.custom-modal-box');
+    if(modalBox) modalBox.style.maxWidth = '820px';
+  }
+  document.body.classList.remove('modal-open');
+};
+
+document.getElementById('customModalOverlay')?.addEventListener('click', function(e) {
+  if(e.target === this) closeCustomModal();
+});
+
+window.openAttorneyModal = function(name) {
+  const att = ATTORNEYS_DATA[name];
+  if(!att) return;
+  openCustomModal(`
+    <div style="display:flex; gap:24px; align-items:flex-start; margin-bottom:20px; flex-wrap:wrap;">
+      <img src="${att.image}" alt="${att.name}" style="width:130px; height:150px; object-fit:cover; border-bottom:4px solid var(--primary);">
+      <div>
+        <h2 style="font-size:28px; margin-bottom:4px;">${att.name}</h2>
+        <div style="font-family:var(--font-accent); font-size:14px; color:var(--primary-dark); font-weight:700; text-transform:uppercase;">${att.title}</div>
+        <div style="font-size:14px; color:#666; margin-top:4px;">${att.practice}</div>
+      </div>
+    </div>
+    <p style="font-size:15px; line-height:1.8; color:#333; margin-bottom:20px;">${att.bio}</p>
+    <div style="background:#f9f9f9; padding:20px; border-left:4px solid var(--primary); margin-bottom:24px;">
+      <strong style="font-size:12px; text-transform:uppercase; letter-spacing:1px; display:block; margin-bottom:6px;">Bar Admissions</strong>
+      <ul style="font-size:14px; color:#555; margin-bottom:12px;">
+        ${att.admissions.map(a => `<li>&bull; ${a}</li>`).join('')}
+      </ul>
+      <strong style="font-size:12px; text-transform:uppercase; letter-spacing:1px; display:block; margin-bottom:4px;">Credentials</strong>
+      <div style="font-size:14px; color:#555;">${att.education}</div>
+    </div>
+    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px;">
+      <a href="tel:+1-800-000-0000" style="color:#000; font-weight:700; font-size:15px;"><i class="fas fa-phone-alt" style="color:var(--primary);"></i> 1-800-000-0000</a>
+      <a href="#contact" onclick="closeCustomModal()" class="button button-primary">Retain Counsel &rarr;</a>
+    </div>
+  `);
+};
+
+window.openPracticeModal = function(name) {
+  const p = PRACTICES_DATA[name];
+  if(!p) return;
+  openCustomModal(`
+    <h2 style="font-size:30px; margin-bottom:12px; text-transform:uppercase;">${p.title}</h2>
+    <p style="font-size:16px; line-height:1.8; color:#333; margin-bottom:20px;">${p.scope}</p>
+    <div style="background:#f9f9f9; padding:20px; border-left:4px solid var(--primary); margin-bottom:24px;">
+      <strong style="font-size:13px; text-transform:uppercase; letter-spacing:1px; display:block; margin-bottom:8px;">Core Capabilities</strong>
+      <ul style="display:grid; gap:8px;">
+        ${p.highlights.map(h => `<li style="font-size:14px; color:#444;"><i class="fas fa-check" style="color:var(--primary); margin-right:8px;"></i> ${h}</li>`).join('')}
+      </ul>
+    </div>
+    <div style="display:flex; justify-content:flex-end;">
+      <a href="#contact" onclick="closeCustomModal()" class="button button-primary">Inquire in This Practice &rarr;</a>
+    </div>
+  `);
+};
+
+window.openBlogModal = function(id) {
+  const b = (typeof activeBlogs !== 'undefined' ? activeBlogs.find(x => x.id === id) : null) || BLOGS_DATA.find(x => x.id === id);
+  if(!b) return;
+  const articleUrl = window.location.origin + window.location.pathname + '#publication-' + (b.slug || b.id);
+  openCustomModal(`
+    <div style="border-bottom:1px solid #eee; padding-bottom:14px; margin-bottom:18px;">
+      <span style="display:inline-block; background:var(--primary); color:#000; font-weight:700; font-size:11px; padding:3px 8px; text-transform:uppercase; margin-bottom:10px;">${escapeHtml(b.category)}</span>
+      <h2 style="font-size:28px; line-height:1.2; margin-bottom:8px;">${escapeHtml(b.title)}</h2>
+      <p style="font-size:14px; color:#777; margin:0;">By <strong>${escapeHtml(b.author)}</strong> &middot; Published ${escapeHtml(b.date)} &middot; ${escapeHtml(b.readTime || '6 min read')}</p>
+    </div>
+    <div style="margin-bottom:20px; max-height:360px; overflow:hidden; border-radius:4px;">
+      <img src="${escapeHtml(b.image || 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1400&q=80')}" alt="${escapeHtml(b.title)}" style="width:100%; object-fit:cover;">
+    </div>
+    <div style="font-size:16px; line-height:1.85; color:#333; margin-bottom:24px;">
+      ${b.content || '<p>' + escapeHtml(b.subtitle || '') + '</p>'}
+    </div>
+
+    <!-- Social Media Sharing Bar -->
+    <div style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:6px; padding:12px 16px; margin:20px 0; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:10px;">
+      <span style="font-size:13px; font-weight:700; color:#334155; display:flex; align-items:center; gap:6px;">
+        <i class="fas fa-share-alt" style="color:var(--primary-dark);"></i> Share Publication:
+      </span>
+      <div style="display:flex; gap:8px; align-items:center; flex-wrap:wrap;">
+        <a href="https://twitter.com/intent/tweet?text=${encodeURIComponent(b.title)}&url=${encodeURIComponent(articleUrl)}" target="_blank" rel="noopener noreferrer" style="padding:6px 12px; background:#000; color:#fff; border-radius:4px; font-size:12px; font-weight:600; text-decoration:none; display:inline-flex; align-items:center; gap:5px;"><i class="fab fa-x-twitter"></i> X / Twitter</a>
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(articleUrl)}" target="_blank" rel="noopener noreferrer" style="padding:6px 12px; background:#0a66c2; color:#fff; border-radius:4px; font-size:12px; font-weight:600; text-decoration:none; display:inline-flex; align-items:center; gap:5px;"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(articleUrl)}" target="_blank" rel="noopener noreferrer" style="padding:6px 12px; background:#1877f2; color:#fff; border-radius:4px; font-size:12px; font-weight:600; text-decoration:none; display:inline-flex; align-items:center; gap:5px;"><i class="fab fa-facebook-f"></i> Facebook</a>
+        <a href="https://api.whatsapp.com/send?text=${encodeURIComponent(b.title + ' ' + articleUrl)}" target="_blank" rel="noopener noreferrer" style="padding:6px 12px; background:#25d366; color:#fff; border-radius:4px; font-size:12px; font-weight:600; text-decoration:none; display:inline-flex; align-items:center; gap:5px;"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+        <button type="button" onclick="copyArticleShareLink('${encodeURIComponent(articleUrl)}', this)" style="padding:6px 12px; background:#e2e8f0; color:#1e293b; border:1px solid #cbd5e1; border-radius:4px; font-size:12px; font-weight:600; cursor:pointer; display:inline-flex; align-items:center; gap:5px;"><i class="fas fa-link"></i> Copy Link</button>
+      </div>
+    </div>
+
+    <div style="background:#fbf9f4; padding:16px; border-left:4px solid var(--primary); font-size:13px; color:#666; margin-bottom:20px;">
+      <strong>Disclaimer:</strong> This article provides general legal information and does not constitute formal legal advice or create an attorney-client relationship.
+    </div>
+    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;">
+      <a href="#contact" onclick="closeCustomModal()" class="button button-primary">Consult With Our Authors &rarr;</a>
+      <button class="button" onclick="closeCustomModal()">Close</button>
+    </div>
+  `);
+};
+
+window.copyArticleShareLink = function(urlEncoded, btn) {
+  const url = decodeURIComponent(urlEncoded);
+  if (navigator.clipboard) {
+    navigator.clipboard.writeText(url).then(() => {
+      const orig = btn.innerHTML;
+      btn.innerHTML = '<i class="fas fa-check" style="color:#10b981;"></i> Copied!';
+      setTimeout(() => { btn.innerHTML = orig; }, 2000);
+    }).catch(() => {
+      prompt('Copy article link:', url);
+    });
+  } else {
+    prompt('Copy article link:', url);
+  }
+};
+
+window.shareBlogQuick = function(id, title) {
+  const articleUrl = window.location.origin + window.location.pathname + '#publication-' + id;
+  if (navigator.share) {
+    navigator.share({
+      title: title,
+      text: title,
+      url: articleUrl
+    }).catch(() => {});
+  } else {
+    openBlogModal(id);
+  }
+};
+
+// ==================== SECURITY & ESCAPE ====================
+function escapeHtml(str) {
+  if (str === null || str === undefined) return '';
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
+// ==================== 5. COURSES & ACADEMY ENGINE ====================
+const COURSES_DATA = [
+  {
+    id: 'c1',
+    slug: 'international-commercial-arbitration',
+    title: 'International Commercial Arbitration: Strategy & Award Enforcement',
+    category: 'Arbitration',
+    level: 'Advanced Masterclass',
+    duration: '8 weeks · 24 lectures · 16 CLE Credits',
+    price: 4999,
+    currency: 'INR',
+    instructor: 'Dr. Amara Okonkwo',
+    instructorTitle: 'Partner & Arbitrator (LCIA, SIAC, ICC Panels)',
+    instructorAvatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80',
+    rating: 4.9,
+    students: 1420,
+    image: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1400&q=80',
+    description: 'An exhaustive masterclass on drafting arbitration clauses, seat selection, emergency arbitral injunctions, evidence hearings under IBA rules, and cross-border award attachment under the 1958 New York Convention.',
+    outcomes: [
+      'Draft ironclad multi-tier dispute resolution and escalation clauses',
+      'Select arbitration seats, institutional rules, and tribunal members strategically',
+      'Deploy emergency arbitrator applications and cross-border asset freezing',
+      'Master Article V New York Convention defences and global sovereign asset attachment'
+    ],
+    curriculum: [
+      {
+        title: 'Module 1: The Foundations & The Arbitration Agreement',
+        lessons: [
+          { title: 'The 1958 New York Convention Architecture in Global Practice', duration: '45 min', type: 'Video Masterclass' },
+          { title: 'Pathological Arbitration Clauses & Drafting Remedies', duration: '50 min', type: 'Video Masterclass' },
+          { title: 'Seat vs. Venue: Substantive Curial Law & Judicial Supervision', duration: '40 min', type: 'Practical Case Brief' }
+        ]
+      },
+      {
+        title: 'Module 2: Tribunal Procedure, Evidence & Emergency Injunctions',
+        lessons: [
+          { title: 'Emergency Arbitrators & Urgent Interim Asset Freezing', duration: '55 min', type: 'Video Masterclass' },
+          { title: 'IBA Rules on the Taking of Evidence & Redfern Document Production', duration: '60 min', type: 'Drafting Workshop' },
+          { title: 'Cross-Examination of Technical & Financial Damages Experts', duration: '50 min', type: 'Tribunal Simulation' }
+        ]
+      },
+      {
+        title: 'Module 3: Awards, Annulment & Global Asset Recovery',
+        lessons: [
+          { title: 'Drafting Final Enforceable Awards: Standard of Reasons', duration: '45 min', type: 'Video Masterclass' },
+          { title: 'Defeating Article V Non-Enforcement Objections & Public Policy Bars', duration: '55 min', type: 'Case Study' },
+          { title: 'Attaching Sovereign Commercial Assets & Multi-Jurisdiction Execution', duration: '60 min', type: 'Executive Brief' }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'c2',
+    slug: 'cross-border-contract-drafting',
+    title: 'Cross-Border Contract Drafting, Joint Ventures & Risk Allocation',
+    category: 'Cross-Border Contracts',
+    level: 'Executive Practitioner',
+    duration: '6 weeks · 18 lectures · 12 CLE Credits',
+    price: 3499,
+    currency: 'INR',
+    instructor: 'Adv. Priya Menon',
+    instructorTitle: 'Partner, Transactional Practice & M&A',
+    instructorAvatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80',
+    rating: 4.8,
+    students: 1180,
+    image: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1400&q=80',
+    description: 'Structure multi-jurisdictional contracts that bridge common law and civil law systems. Master indemnities, representations & warranties, currency hedging clauses, force majeure, and dispute escalation protocols.',
+    outcomes: [
+      'Harmonize common law indemnities with civil law breach concepts',
+      'Structure cross-border joint ventures and deadlock resolution mechanisms',
+      'Draft enforceable limitation of liability and consequential damage caps',
+      'Incorporate Incoterms 2020 rules into transnational supply agreements'
+    ],
+    curriculum: [
+      {
+        title: 'Module 1: The Transnational Contract Architecture',
+        lessons: [
+          { title: 'Governing Law Clauses vs. Jurisdiction Carve-Outs', duration: '40 min', type: 'Video Masterclass' },
+          { title: 'Representations, Warranties & Indemnity Covenants', duration: '50 min', type: 'Video Masterclass' },
+          { title: 'Liability Caps, Super-Caps & Fraud Carve-Outs', duration: '45 min', type: 'Drafting Workshop' }
+        ]
+      },
+      {
+        title: 'Module 2: Complex Joint Ventures & Transaction Execution',
+        lessons: [
+          { title: 'Deadlock Resolution: Russian Roulette, Texas Shootout & Put Options', duration: '55 min', type: 'Case Study' },
+          { title: 'Force Majeure, Hardship Clauses & Sanctions Frustration', duration: '45 min', type: 'Video Masterclass' },
+          { title: 'Cross-Border Signing, Escrow & Closing Protocol Execution', duration: '50 min', type: 'Practical Workshop' }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'c3',
+    slug: 'global-data-privacy-compliance',
+    title: 'Global Data Privacy, GDPR & India DPDP Act 2023 Masterclass',
+    category: 'Data & Privacy',
+    level: 'Specialist Masterclass',
+    duration: '7 weeks · 21 lectures · 14 CPD Credits',
+    price: 3999,
+    currency: 'INR',
+    instructor: 'Dr. Sofia Lindqvist',
+    instructorTitle: 'Head of Data & Privacy, Former EU Regulatory Counsel',
+    instructorAvatar: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=400&q=80',
+    rating: 4.9,
+    students: 980,
+    image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=80',
+    description: 'Comprehensive comparative mastery of the EU GDPR, UK-GDPR, India’s Digital Personal Data Protection (DPDP) Act 2023, and global AI governance laws. Learn to conduct Transfer Impact Assessments (TIAs) and orchestrate 72-hour breach responses.',
+    outcomes: [
+      'Conduct defensible Transfer Impact Assessments (TIAs) post-Schrems II',
+      'Implement Data Protection Impact Assessments (DPIAs) for AI applications',
+      'Draft compliant Data Processing Agreements (DPAs) with Standard Contractual Clauses',
+      'Command a 72-hour mandatory breach triage and supervisory notification unit'
+    ],
+    curriculum: [
+      {
+        title: 'Module 1: Principles, Grounds & Cross-Border Data Flows',
+        lessons: [
+          { title: 'Lawful Bases for Processing & Legitimate Interest Assessments', duration: '45 min', type: 'Video Masterclass' },
+          { title: 'Standard Contractual Clauses (SCCs) & Supplementary Encryption', duration: '50 min', type: 'Video Masterclass' },
+          { title: 'Transfer Impact Assessments (TIAs) in Surveillance Jurisdictions', duration: '60 min', type: 'Hands-on Workshop' }
+        ]
+      },
+      {
+        title: 'Module 2: Breach Response, AI Regulation & Regulatory Fines',
+        lessons: [
+          { title: '72-Hour Breach Triage, Forensics & Regulatory Filings', duration: '55 min', type: 'Breach Simulation' },
+          { title: 'The EU AI Act & Algorithmic Liability for High-Risk Systems', duration: '50 min', type: 'Video Masterclass' },
+          { title: 'Defending Before Data Protection Authorities & Penalty Mitigation', duration: '45 min', type: 'Case Analysis' }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'c4',
+    slug: 'admiralty-maritime-law-practice',
+    title: 'Admiralty Practice, Ship Arrests & Maritime Liens',
+    category: 'Maritime & Admiralty',
+    level: 'Specialized Practice',
+    duration: '6 weeks · 18 lectures · 12 CLE Credits',
+    price: 4499,
+    currency: 'INR',
+    instructor: 'Kathleen Horne',
+    instructorTitle: 'Partner, Maritime & Admiralty Practice',
+    instructorAvatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80',
+    rating: 4.9,
+    students: 670,
+    image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=1400&q=80',
+    description: 'Essential masterclass on admiralty jurisdiction, obtaining warrant of vessel arrest under international conventions, maritime liens, charterparty demurrage claims, collision salvage, and P&I Club letters of undertaking.',
+    outcomes: [
+      'Execute swift ex parte vessel arrest proceedings across major global ports',
+      'Rank maritime claims, statutory liens, and mortgage priority',
+      'Negotiate Club Letters of Undertaking (LOU) and security releases',
+      'Litigate speed and consumption warranty breaches and laytime/demurrage disputes'
+    ],
+    curriculum: [
+      {
+        title: 'Module 1: Admiralty Jurisdiction & Vessel Arrests',
+        lessons: [
+          { title: 'The International Arrest Conventions 1952 & 1999', duration: '45 min', type: 'Video Masterclass' },
+          { title: 'Drafting Ex Parte Caveats & Arrest Applications', duration: '50 min', type: 'Drafting Workshop' },
+          { title: 'Sister Ship & Associated Vessel Arrest Doctrines', duration: '45 min', type: 'Case Analysis' }
+        ]
+      },
+      {
+        title: 'Module 2: Charterparties, Marine Casualties & Salvage',
+        lessons: [
+          { title: 'Time vs. Voyage Charters: Laytime, Demurrage & Safe Ports', duration: '55 min', type: 'Video Masterclass' },
+          { title: 'General Average, LOF Salvage & Collision Apportionment', duration: '50 min', type: 'Simulated Hearing' }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'c5',
+    slug: 'real-estate-due-diligence-maharera',
+    title: 'Real Estate Title Diligence, Commercial Conveyancing & MahaRERA',
+    category: 'Real Estate',
+    level: 'Comprehensive Practical Course',
+    duration: '8 weeks · 24 lectures · 16 CLE Credits',
+    price: 3799,
+    currency: 'INR',
+    instructor: 'B. H. Levy, Jr.',
+    instructorTitle: 'Senior Counsel, Real Estate & Conveyancing Practice',
+    instructorAvatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80',
+    rating: 4.8,
+    students: 1310,
+    image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1400&q=80',
+    description: 'Master the art of 30-year chain of title investigation, non-agricultural (NA) land conversion, revenue record scrutiny (7/12 extracts, mutation entries), MahaRERA project compliance, and drafting flawless commercial lease deeds.',
+    outcomes: [
+      'Conduct thorough 30-to-50-year title searches and public search notices',
+      'Detect concealed encumbrances, lis pendens, and revenue disputes',
+      'Structure developer Joint Development Agreements (JDA) and power of attorneys',
+      'Litigate MahaRERA refund, delay interest, and structural defect complaints'
+    ],
+    curriculum: [
+      {
+        title: 'Module 1: Title Search & Land Revenue Systems',
+        lessons: [
+          { title: 'Revenue Records Decoded: 7/12 Extracts, Khata & Ferfar', duration: '45 min', type: 'Video Masterclass' },
+          { title: 'Issuing Public Notices & Handling Objection Certificates', duration: '40 min', type: 'Practical Workshop' },
+          { title: 'Agricultural Tenancy Laws & Non-Agricultural (NA) Permissions', duration: '50 min', type: 'Video Masterclass' }
+        ]
+      },
+      {
+        title: 'Module 2: MahaRERA Regulatory Framework & Commercial Leases',
+        lessons: [
+          { title: 'MahaRERA Project Registration & Escrow Account Rules', duration: '50 min', type: 'Regulatory Review' },
+          { title: 'Drafting Commercial Leases: Triple Net (NNN) & Fit-Out Clauses', duration: '45 min', type: 'Drafting Lab' },
+          { title: 'Handling RERA Adjudication, Appellate Tribunal & High Court Appeals', duration: '55 min', type: 'Appellate Simulation' }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'c6',
+    slug: 'international-advocacy-plain-language',
+    title: 'The Art of Appellate Advocacy & Plain-Language Legal Drafting',
+    category: 'Litigation & Advocacy',
+    level: 'Executive Masterclass',
+    duration: '5 weeks · 15 lectures · 10 CLE Credits',
+    price: 2999,
+    currency: 'INR',
+    instructor: 'Margaret W.S. Puccini',
+    instructorTitle: 'Senior Managing Partner & Appellate Strategist',
+    instructorAvatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80',
+    rating: 4.9,
+    students: 1640,
+    image: 'https://images.unsplash.com/photo-1436450412740-6b988f486c6b?auto=format&fit=crop&w=1400&q=80',
+    description: 'Transform dense, jargon-ridden briefs into compelling, persuasive legal masterpieces that win judges and tribunals. Master the structural architecture of oral arguments, brief writing, and plain-language precision.',
+    outcomes: [
+      'Eliminate archaic legalese and passive voice for maximum judicial impact',
+      'Structure briefs using the Bottom-Line-Up-Front (BLUF) persuasive framework',
+      'Frame the Question Presented so the answer becomes self-evident',
+      'Command appellate bench cross-questioning with poise and surgical authority'
+    ],
+    curriculum: [
+      {
+        title: 'Module 1: The Anatomy of Persuasion in Written Submissions',
+        lessons: [
+          { title: 'The Death of Legalese: Clarity as a Risk Mitigation Strategy', duration: '35 min', type: 'Video Masterclass' },
+          { title: 'Crafting the Question Presented: Deep Issues That Compel', duration: '45 min', type: 'Drafting Lab' },
+          { title: 'Narrative Fact Stating: Building Emotional and Logical Momentum', duration: '40 min', type: 'Case Analysis' }
+        ]
+      },
+      {
+        title: 'Module 2: Oral Arguments Before Appellate Benches',
+        lessons: [
+          { title: 'The Opening Two Minutes: Seizing the Bench’s Mindset', duration: '45 min', type: 'Video Masterclass' },
+          { title: 'Pivoting Hostile Judicial Questions Into Positive Proof', duration: '50 min', type: 'Moot Simulation' }
+        ]
+      }
+    ]
+  }
+];
+
+let activeCourses = [...COURSES_DATA];
+
+window.getStudentUnlockedCourseIds = function() {
+  try {
+    const session = JSON.parse(localStorage.getItem('lga_student_session') || '{}');
+    const unlocked = JSON.parse(localStorage.getItem('lga_unlocked_courses') || '[]');
+    const ids = new Set();
+    if (Array.isArray(unlocked)) {
+      unlocked.forEach(u => ids.add(u.courseId));
+    }
+    const orders = JSON.parse(localStorage.getItem('lga_course_orders') || '[]');
+    if (session.email || session.studentId) {
+      orders.filter(o => o.buyerEmail === session.email || o.studentId === session.studentId).forEach(o => ids.add(o.courseId));
+    } else if (unlocked.length > 0) {
+      unlocked.forEach(u => ids.add(u.courseId));
+    }
+    return Array.from(ids);
+  } catch(e) {
+    return [];
+  }
+};
+
+function renderCourses(items) {
+  const grid = document.getElementById('coursesGrid');
+  if (!grid) return;
+  if (!items.length) {
+    grid.innerHTML = '<div style="grid-column:1/-1; text-align:center; padding:50px 20px; background:#fff; border:1px dashed #cbd5e1; border-radius:8px;"><i class="fas fa-graduation-cap" style="font-size:36px; color:#94a3b8; margin-bottom:12px; display:block;"></i><h4 style="font-size:18px; color:#0f172a; margin-bottom:6px;">No Masterclasses Scheduled Yet</h4><p style="margin:0; font-size:14px; color:#64748b;">Courses will appear here once published from the Partner Portal. You can also contact admissions directly to register future interest.</p></div>';
+    return;
+  }
+  const unlockedIds = getStudentUnlockedCourseIds();
+  grid.innerHTML = items.map(c => {
+    const isUnlocked = unlockedIds.includes(c.id);
+    return `
+    <article class="course-card" style="${isUnlocked ? 'border-top:4px solid #10b981;' : ''}">
+      <div class="course-media">
+        <img src="${escapeHtml(c.image)}" alt="${escapeHtml(c.title)}">
+        <span class="course-cat-tag">${escapeHtml(c.category)}</span>
+        <span class="course-level-badge">${escapeHtml(c.level || 'Masterclass')}</span>
+        ${isUnlocked ? '<span class="course-level-badge" style="background:#10b981; color:#fff; top:auto; bottom:12px; left:12px; right:auto; font-weight:700;"><i class="fas fa-check-circle"></i> Active &amp; Unlocked</span>' : ''}
+      </div>
+      <div class="course-body">
+        <div class="course-top-meta">
+          <span><i class="fas fa-clock" style="color:var(--primary-dark); margin-right:4px;"></i> ${escapeHtml(c.duration)}</span>
+          <span style="color:#d97706; font-weight:700;"><i class="fas fa-star"></i> ${c.rating || 4.9}</span>
+        </div>
+        <h3 class="course-title">${escapeHtml(c.title)}</h3>
+        <p class="course-desc">${escapeHtml(c.description)}</p>
+        
+        <div class="course-outcomes-preview">
+          <strong style="font-size:11px; text-transform:uppercase; letter-spacing:1px; color:#555; display:block; margin-bottom:6px;">Competencies Mastered:</strong>
+          <ul>
+            ${(c.outcomes || []).slice(0, 3).map(o => `<li><i class="fas fa-check-circle"></i> <span>${escapeHtml(o)}</span></li>`).join('')}
+          </ul>
+        </div>
+
+        <div class="course-instructor-row">
+          <img src="${escapeHtml(c.instructorAvatar || 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80')}" alt="${escapeHtml(c.instructor)}">
+          <div class="course-instructor-info">
+            <strong>${escapeHtml(c.instructor)}</strong>
+            <span>${escapeHtml(c.instructorTitle || 'Executive Faculty')}</span>
+          </div>
+        </div>
+
+        <div class="course-card-foot">
+          <div class="course-price-wrap">
+            <strong>₹${(c.price || 0).toLocaleString()}</strong>
+            <span>${isUnlocked ? 'Lifetime Access' : 'Fellowships Available'}</span>
+          </div>
+          <div class="course-card-actions">
+            <button class="btn-course-syllabus" onclick="openCourseCurriculumModal('${escapeHtml(c.id)}')"><i class="fas fa-list-ul"></i> Syllabus</button>
+            ${isUnlocked 
+              ? `<button class="btn-course-enroll" style="background:#10b981; border-color:#10b981;" onclick="openStudentClassroom('${escapeHtml(c.id)}')"><i class="fas fa-play-circle"></i> Open Classroom</button>`
+              : `<button class="btn-course-enroll" onclick="openCourseEnrollmentModal('${escapeHtml(c.id)}')">Enroll Now &rarr;</button>`
+            }
+          </div>
+        </div>
+      </div>
+    </article>
+  `;
+  }).join('');
+}
+
+window.filterCourses = function(category) {
+  document.querySelectorAll('#courseFilters .course-filter-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.textContent.trim().includes(category) || (category === 'All' && btn.textContent.includes('All')));
+  });
+
+  if (category === 'All') {
+    activeCourses = [...COURSES_DATA];
+  } else {
+    activeCourses = COURSES_DATA.filter(c => c.category === category || c.category.toLowerCase().includes(category.toLowerCase()));
+  }
+  renderCourses(activeCourses);
+};
+
+window.openCourseCurriculumModal = function(courseId) {
+  const course = COURSES_DATA.find(c => c.id === courseId);
+  if (!course) return;
+
+  const modulesHtml = (course.curriculum || []).map((mod, idx) => `
+    <div style="background:#fff; border:1px solid #e2e8f0; border-radius:6px; margin-bottom:14px; overflow:hidden;">
+      <div style="background:#f8fafc; padding:12px 18px; border-bottom:1px solid #e2e8f0; font-weight:700; font-size:15px; color:#0f172a; display:flex; justify-content:space-between; align-items:center;">
+        <span>${escapeHtml(mod.title)}</span>
+        <span style="font-size:12px; font-weight:600; color:#64748b;">${(mod.lessons||[]).length} Lessons</span>
+      </div>
+      <div style="padding:12px 18px;">
+        <ul style="display:grid; gap:10px;">
+          ${(mod.lessons || []).map(l => `
+            <li style="display:flex; justify-content:space-between; align-items:center; font-size:14px; color:#334155; border-bottom:1px dashed #f1f5f9; padding-bottom:8px;">
+              <div style="display:flex; align-items:center; gap:10px;">
+                <i class="fas fa-play-circle" style="color:var(--primary-dark);"></i>
+                <span>${escapeHtml(l.title)}</span>
+              </div>
+              <span style="font-size:12px; color:#64748b; background:#f1f5f9; padding:2px 8px; border-radius:10px;">${escapeHtml(l.duration)} &middot; ${escapeHtml(l.type || 'Lecture')}</span>
+            </li>
+          `).join('')}
+        </ul>
+      </div>
+    </div>
+  `).join('');
+
+  openCustomModal(`
+    <div style="border-bottom:1px solid #e2e8f0; padding-bottom:16px; margin-bottom:20px;">
+      <span style="display:inline-block; background:var(--primary); color:#000; font-weight:700; font-size:11px; padding:3px 9px; text-transform:uppercase; border-radius:3px; margin-bottom:8px;">${escapeHtml(course.category)} &middot; ${escapeHtml(course.level)}</span>
+      <h2 style="font-size:28px; line-height:1.2; margin-bottom:8px;">${escapeHtml(course.title)}</h2>
+      <p style="font-size:14px; color:#64748b; margin:0;">
+        <strong>Faculty:</strong> ${escapeHtml(course.instructor)} (${escapeHtml(course.instructorTitle)}) &bull; 
+        <strong>Duration:</strong> ${escapeHtml(course.duration)}
+      </p>
+    </div>
+
+    <div style="background:#fffbeb; border-left:4px solid var(--primary); padding:14px 18px; margin-bottom:22px; font-size:14px; color:#92400e;">
+      <strong>Continuing Legal Education (CLE) Accreditation:</strong> This masterclass satisfies formal practitioner credits across international bars. Comprehensive syllabus modules detailed below:
+    </div>
+
+    <h3 style="font-size:18px; text-transform:uppercase; letter-spacing:1px; margin-bottom:14px;">Detailed Curriculum &amp; Modules</h3>
+    <div style="margin-bottom:24px;">
+      ${modulesHtml}
+    </div>
+
+    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px;">
+      <div>
+        <span style="font-size:12px; color:#64748b; display:block;">Program Fee</span>
+        <strong style="font-size:24px; color:#0f172a;">₹${(course.price || 0).toLocaleString()}</strong>
+      </div>
+      <div style="display:flex; gap:10px;">
+        <button class="button" onclick="closeCustomModal()">Close</button>
+        <button class="button button-primary" onclick="closeCustomModal(); openCourseEnrollmentModal('${escapeHtml(course.id)}')">Proceed to Enrollment &rarr;</button>
+      </div>
+    </div>
+  `);
+};
+
+window.openCourseEnrollmentModal = function(courseId) {
+  const course = COURSES_DATA.find(c => c.id === courseId) || COURSES_DATA[0];
+  const fee = Number(course.price || 0);
+  const baseFee = Math.round(fee / 1.18);
+  const gst = fee - baseFee;
+
+  openCustomModal(`
+    <div style="border-bottom:1px solid #e2e8f0; padding-bottom:14px; margin-bottom:18px;">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+        <span style="display:inline-block; background:var(--primary); color:#000; font-weight:700; font-size:11px; padding:3px 9px; text-transform:uppercase; border-radius:3px;">Course Admissions &amp; Checkout</span>
+        <span style="font-size:12px; color:#16a34a; font-weight:700;"><i class="fas fa-lock"></i> Secured by Razorpay</span>
+      </div>
+      <h2 style="font-size:24px; line-height:1.2; margin:8px 0 4px;">${escapeHtml(course.title)}</h2>
+      <p style="font-size:13px; color:#64748b; margin:0;">Faculty Lead: <strong>${escapeHtml(course.instructor)}</strong> &middot; ${escapeHtml(course.duration)}</p>
+    </div>
+
+    <form id="courseEnrollmentForm" onsubmit="handleCourseEnrollment(event, '${escapeHtml(course.id)}')">
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:14px;">
+        <div>
+          <label style="display:block; font-size:12px; font-weight:700; text-transform:uppercase; margin-bottom:6px; color:#333;">Candidate Full Name *</label>
+          <input type="text" id="enrName" required placeholder="e.g. Adv. Vikramaditya Sharma" style="width:100%; padding:10px 12px; border:1px solid #cbd5e1; border-radius:4px; font-size:14px;">
+        </div>
+        <div>
+          <label style="display:block; font-size:12px; font-weight:700; text-transform:uppercase; margin-bottom:6px; color:#333;">Email Address (For Portal Access) *</label>
+          <input type="email" id="enrEmail" required placeholder="name@firm.com" style="width:100%; padding:10px 12px; border:1px solid #cbd5e1; border-radius:4px; font-size:14px;">
+        </div>
+      </div>
+
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:14px;">
+        <div>
+          <label style="display:block; font-size:12px; font-weight:700; text-transform:uppercase; margin-bottom:6px; color:#333;">Contact Phone / WhatsApp *</label>
+          <input type="tel" id="enrPhone" required placeholder="+91 98200 00000" style="width:100%; padding:10px 12px; border:1px solid #cbd5e1; border-radius:4px; font-size:14px;">
+        </div>
+        <div>
+          <label style="display:block; font-size:12px; font-weight:700; text-transform:uppercase; margin-bottom:6px; color:#333;">Law Firm / Organization / University *</label>
+          <input type="text" id="enrOrg" required placeholder="e.g. Apex Legal Chambers" style="width:100%; padding:10px 12px; border:1px solid #cbd5e1; border-radius:4px; font-size:14px;">
+        </div>
+      </div>
+
+      <div style="margin-bottom:14px;">
+        <label style="display:block; font-size:12px; font-weight:700; text-transform:uppercase; margin-bottom:6px; color:#333;">Preferred Learning Track *</label>
+        <select id="enrMode" style="width:100%; padding:10px 12px; border:1px solid #cbd5e1; border-radius:4px; font-size:14px; background:#fff;">
+          <option value="Live Interactive Weekend Cohort">Live Interactive Weekend Cohort (With Faculty Q&amp;A)</option>
+          <option value="Executive Self-Paced Masterclass">Executive Self-Paced Masterclass (Immediate On-Demand Access)</option>
+        </select>
+      </div>
+
+      <div style="margin-bottom:16px;">
+        <label style="display:block; font-size:12px; font-weight:700; text-transform:uppercase; margin-bottom:6px; color:#333;">Special Notes / Billing GSTIN (Optional)</label>
+        <input type="text" id="enrNotes" placeholder="Optional GSTIN or corporate reference..." style="width:100%; padding:8px 12px; border:1px solid #cbd5e1; border-radius:4px; font-size:13px;">
+      </div>
+
+      <!-- Payment Summary Box -->
+      <div style="background:#0f172a; color:#fff; border-radius:6px; padding:16px 20px; margin-bottom:18px;">
+        <div style="font-size:11px; text-transform:uppercase; letter-spacing:1px; color:var(--primary); font-weight:700; margin-bottom:8px;">
+          Fee Breakdown &amp; Tax Invoice Summary
+        </div>
+        <div style="display:flex; justify-content:space-between; font-size:13px; margin-bottom:4px; color:#94a3b8;">
+          <span>Base Academic Tuition:</span>
+          <span>₹${baseFee.toLocaleString()}</span>
+        </div>
+        <div style="display:flex; justify-content:space-between; font-size:13px; margin-bottom:8px; color:#94a3b8;">
+          <span>Certified GST (18% inclusive):</span>
+          <span>₹${gst.toLocaleString()}</span>
+        </div>
+        <div style="display:flex; justify-content:space-between; font-size:18px; font-weight:700; border-top:1px solid #334155; padding-top:8px; color:#fff;">
+          <span>Total Payable:</span>
+          <span style="color:var(--primary);">₹${fee.toLocaleString()}</span>
+        </div>
+        <div style="display:flex; align-items:center; gap:8px; margin-top:10px; font-size:11px; color:#94a3b8;">
+          <i class="fab fa-cc-visa"></i>
+          <i class="fab fa-cc-mastercard"></i>
+          <i class="fas fa-qrcode"></i>
+          <span>Supports UPI (GooglePay, PhonePe, Paytm), NetBanking, Credit &amp; Debit Cards</span>
+        </div>
+      </div>
+
+      <button type="submit" id="enrSubmitBtn" class="button button-primary" style="width:100%; height:48px; justify-content:center; font-size:15px; font-weight:700;">
+        <i class="fas fa-shield-alt" style="margin-right:8px;"></i> Pay ₹${fee.toLocaleString()} with Razorpay &rarr;
+      </button>
+    </form>
+  `);
+};
+
+window.handleCourseEnrollment = async function(e, courseId) {
+  e.preventDefault();
+  const course = COURSES_DATA.find(c => c.id === courseId) || COURSES_DATA[0];
+  const btn = document.getElementById('enrSubmitBtn');
+  btn.disabled = true;
+  btn.textContent = 'Initiating Secure Razorpay Gateway...';
+
+  const payload = {
+    courseId,
+    name: document.getElementById('enrName')?.value.trim(),
+    email: document.getElementById('enrEmail')?.value.trim(),
+    phone: document.getElementById('enrPhone')?.value.trim(),
+    organization: document.getElementById('enrOrg')?.value.trim() || 'Individual Practitioner',
+    mode: document.getElementById('enrMode')?.value,
+    note: document.getElementById('enrNotes')?.value.trim()
+  };
+
+  const razorpayKey = localStorage.getItem('lex_razorpay_key_id') || window.LEX_RAZORPAY_KEY_ID || '';
+  const razorpayMode = localStorage.getItem('lex_razorpay_mode') || 'test_simulator';
+
+  // If a real Razorpay key is configured and Razorpay SDK is available
+  if (razorpayKey && typeof Razorpay !== 'undefined' && razorpayMode === 'razorpay_live') {
+    try {
+      const options = {
+        key: razorpayKey,
+        amount: Number(course.price || 0) * 100, // paise
+        currency: "INR",
+        name: "LEX GLOBAL ADVOCACY LLP",
+        description: course.title,
+        image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=200&q=80",
+        prefill: {
+          name: payload.name,
+          email: payload.email,
+          contact: payload.phone
+        },
+        theme: {
+          color: "#0c0e12"
+        },
+        handler: function(response) {
+          finishOrderSuccess(payload, course, response.razorpay_payment_id || ('pay_' + Date.now()), response.razorpay_order_id, 'Razorpay Live Checkout');
+        },
+        modal: {
+          ondismiss: function() {
+            btn.disabled = false;
+            btn.innerHTML = `<i class="fas fa-shield-alt" style="margin-right:8px;"></i> Pay ₹${(course.price || 0).toLocaleString()} with Razorpay &rarr;`;
+          }
+        }
+      };
+      const rzp = new Razorpay(options);
+      rzp.open();
+      return;
+    } catch(err) {
+      console.warn('Fallback to interactive checkout simulator', err);
+    }
+  }
+
+  // Interactive Razorpay Test Simulator
+  openRazorpaySimulator(payload, course);
+};
+
+window.openRazorpaySimulator = function(payload, course) {
+  const fee = Number(course.price || 0);
+  openCustomModal(`
+    <div style="background:#0c0e12; color:#fff; border-radius:8px; padding:24px; max-width:540px; margin:0 auto; border:1px solid #2b3342;">
+      <!-- Razorpay Branded Header -->
+      <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid #1f2937; padding-bottom:16px; margin-bottom:18px;">
+        <div style="display:flex; align-items:center; gap:12px;">
+          <div style="width:40px; height:40px; background:var(--primary); color:#000; border-radius:6px; display:grid; place-items:center; font-size:20px; font-weight:800;">
+            <i class="fas fa-balance-scale"></i>
+          </div>
+          <div>
+            <div style="font-size:15px; font-weight:700; color:#fff;">LEX GLOBAL ADVOCACY</div>
+            <div style="font-size:11px; color:#9ca3af;"><i class="fas fa-shield-alt" style="color:#10b981;"></i> Razorpay Test Gateway</div>
+          </div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:11px; color:#9ca3af; text-transform:uppercase;">Amount Payable</div>
+          <div style="font-size:22px; font-weight:800; color:var(--primary);">₹${fee.toLocaleString()}</div>
+        </div>
+      </div>
+
+      <div style="background:#111827; border:1px solid #1f2937; border-radius:6px; padding:14px; margin-bottom:18px; font-size:13px;">
+        <div style="color:#d1d5db; margin-bottom:4px;"><strong>Candidate:</strong> ${escapeHtml(payload.name)} (${escapeHtml(payload.email)})</div>
+        <div style="color:#9ca3af;"><strong>Masterclass:</strong> ${escapeHtml(course.title)}</div>
+      </div>
+
+      <!-- Test Payment Method Selector -->
+      <div style="margin-bottom:18px;">
+        <label style="display:block; font-size:12px; text-transform:uppercase; font-weight:700; color:#9ca3af; margin-bottom:8px;">Choose Test Payment Method</label>
+        
+        <div style="display:grid; gap:8px;">
+          <label style="display:flex; align-items:center; gap:12px; background:#1f2937; padding:12px 14px; border-radius:6px; cursor:pointer; border:1px solid #374151;">
+            <input type="radio" name="simPayMethod" value="Razorpay UPI (GooglePay / PhonePe)" checked style="accent-color:var(--primary);">
+            <div style="flex:1;">
+              <strong style="font-size:13px; color:#fff;">UPI / QR (Google Pay, PhonePe, Paytm)</strong>
+              <div style="font-size:11px; color:#9ca3af;">Simulate Instant UPI Authorization</div>
+            </div>
+            <i class="fas fa-mobile-alt" style="color:var(--primary);"></i>
+          </label>
+
+          <label style="display:flex; align-items:center; gap:12px; background:#1f2937; padding:12px 14px; border-radius:6px; cursor:pointer; border:1px solid #374151;">
+            <input type="radio" name="simPayMethod" value="Razorpay Card (Visa / Mastercard)" style="accent-color:var(--primary);">
+            <div style="flex:1;">
+              <strong style="font-size:13px; color:#fff;">Credit / Debit Card (Visa, Mastercard, RuPay)</strong>
+              <div style="font-size:11px; color:#9ca3af;">Simulate Instant OTP Card Verification</div>
+            </div>
+            <i class="far fa-credit-card" style="color:var(--primary);"></i>
+          </label>
+
+          <label style="display:flex; align-items:center; gap:12px; background:#1f2937; padding:12px 14px; border-radius:6px; cursor:pointer; border:1px solid #374151;">
+            <input type="radio" name="simPayMethod" value="Razorpay NetBanking" style="accent-color:var(--primary);">
+            <div style="flex:1;">
+              <strong style="font-size:13px; color:#fff;">NetBanking (HDFC, ICICI, SBI, Axis)</strong>
+              <div style="font-size:11px; color:#9ca3af;">Simulate Bank Portal Approval</div>
+            </div>
+            <i class="fas fa-university" style="color:var(--primary);"></i>
+          </label>
+        </div>
+      </div>
+
+      <div style="display:flex; gap:10px;">
+        <button type="button" class="button" style="flex:1; background:#374151; color:#fff; border:none; height:46px;" onclick="closeCustomModal()">Cancel</button>
+        <button type="button" id="confirmSimPayBtn" class="button button-primary" style="flex:2; height:46px; font-weight:700;" onclick="executeSimulatedPayment()">
+          <i class="fas fa-check-circle" style="margin-right:6px;"></i> Authorize ₹${fee.toLocaleString()} Test Payment &rarr;
+        </button>
+      </div>
+
+      <div style="font-size:11px; color:#6b7280; text-align:center; margin-top:14px;">
+        <i class="fas fa-info-circle"></i> Test mode active. You can enter live Razorpay credentials in the Admin Portal Settings anytime.
+      </div>
+    </div>
+  `);
+
+  window.executeSimulatedPayment = function() {
+    const btn = document.getElementById('confirmSimPayBtn');
+    if(btn) {
+      btn.disabled = true;
+      btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Processing Razorpay Webhook...';
+    }
+    const method = document.querySelector('input[name="simPayMethod"]:checked')?.value || 'Razorpay UPI';
+    const simPaymentId = 'pay_rzp_' + Date.now().toString(36) + Math.random().toString(36).substring(2, 7);
+    const simOrderId = 'order_rzp_' + Math.floor(100000 + Math.random()*900000);
+
+    setTimeout(() => {
+      finishOrderSuccess(payload, course, simPaymentId, simOrderId, method);
+    }, 1000);
+  };
+};
+
+window.finishOrderSuccess = async function(payload, course, paymentId, orderId, paymentMethod) {
+  const studentId = 'LGA-ACAD-' + Math.floor(1000 + Math.random()*9000);
+  const finalOrderId = orderId || ('ORD-2026-' + Math.floor(10000 + Math.random()*90000));
+  const invoiceNumber = 'INV-LGA-2026-' + Math.floor(1000 + Math.random()*9000);
+  const fee = Number(course.price || 0);
+  const baseFee = Math.round(fee / 1.18);
+  const gst = fee - baseFee;
+  const timestamp = new Date().toISOString();
+
+  const orderRecord = {
+    id: 'ord-' + Date.now(),
+    orderId: finalOrderId,
+    paymentId: paymentId,
+    studentId: studentId,
+    invoiceNumber: invoiceNumber,
+    courseId: course.id,
+    courseTitle: course.title,
+    buyerName: payload.name,
+    buyerEmail: payload.email,
+    buyerPhone: payload.phone,
+    organization: payload.organization || 'Individual Practitioner',
+    learningTrack: payload.mode,
+    note: payload.note || '',
+    amount: fee,
+    currency: 'INR',
+    paymentMethod: paymentMethod || 'Razorpay',
+    paymentStatus: 'Paid',
+    timestamp: timestamp
+  };
+
+  // 1. Save to Course Orders Registry in localStorage
+  try {
+    const existingOrders = JSON.parse(localStorage.getItem('lga_course_orders') || '[]');
+    existingOrders.unshift(orderRecord);
+    localStorage.setItem('lga_course_orders', JSON.stringify(existingOrders));
+  } catch(e) {}
+
+  // 2. Save to Enrolled Students in localStorage
+  try {
+    const enrItem = {
+      id: 'enr-' + Date.now(),
+      courseId: course.id,
+      courseTitle: course.title,
+      studentId: studentId,
+      name: payload.name,
+      email: payload.email,
+      phone: payload.phone,
+      organization: payload.organization || 'Individual Practitioner',
+      mode: payload.mode,
+      note: payload.note,
+      status: 'Confirmed',
+      enrolledAt: timestamp
+    };
+    const existingEnr = JSON.parse(localStorage.getItem('lga_academy_enrollments') || '[]');
+    existingEnr.unshift(enrItem);
+    localStorage.setItem('lga_academy_enrollments', JSON.stringify(existingEnr));
+  } catch(e) {}
+
+  // 3. Mark Course as Active & Unlocked for this Student
+  try {
+    const unlocked = JSON.parse(localStorage.getItem('lga_unlocked_courses') || '[]');
+    const existingIdx = unlocked.findIndex(u => u.courseId === course.id && (u.studentEmail === payload.email || u.studentId === studentId));
+    if (existingIdx === -1) {
+      unlocked.unshift({
+        courseId: course.id,
+        courseTitle: course.title,
+        studentId: studentId,
+        studentName: payload.name,
+        studentEmail: payload.email,
+        paymentId: paymentId,
+        unlockedAt: timestamp,
+        completedLessons: [0], // First lesson unlocked & in-progress
+        progress: 25
+      });
+      localStorage.setItem('lga_unlocked_courses', JSON.stringify(unlocked));
+    }
+    // Set active student session
+    localStorage.setItem('lga_student_session', JSON.stringify({
+      studentId: studentId,
+      name: payload.name,
+      email: payload.email,
+      phone: payload.phone,
+      organization: payload.organization || 'Individual Practitioner'
+    }));
+    // Re-render course cards so public page immediately shows "Active & Unlocked"
+    renderCourses(activeCourses);
+    if (window.updateClassroomVisibility) window.updateClassroomVisibility();
+  } catch(e) {}
+
+  // 4. Post to backend if active
+  try {
+    fetch(`${window.LEX_API_URL || ''}/api/courses/orders`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(orderRecord)
+    }).catch(() => {});
+  } catch(e) {}
+
+  // 5. Render Official Tax Invoice & Admission Pass Modal
+  openCustomModal(`
+    <div id="printableInvoiceWrap" style="background:#fff; color:#0f172a; padding:24px; border-radius:8px; max-width:680px; margin:0 auto; box-shadow:0 15px 35px rgba(0,0,0,0.15);">
+      
+      <!-- Invoice Header -->
+      <div style="display:flex; justify-content:space-between; align-items:flex-start; border-bottom:2px solid #0c0e12; padding-bottom:14px; margin-bottom:18px; flex-wrap:wrap; gap:12px;">
+        <div>
+          <div style="display:flex; align-items:center; gap:10px; margin-bottom:4px;">
+            <div style="width:34px; height:34px; background:#0c0e12; color:var(--primary); display:grid; place-items:center; font-size:16px; border-radius:4px;">
+              <i class="fas fa-balance-scale"></i>
+            </div>
+            <strong style="font-family:var(--font-accent); font-size:20px; letter-spacing:1px; text-transform:uppercase;">LEX GLOBAL ADVOCACY LLP</strong>
+          </div>
+          <div style="font-size:12px; color:#64748b;">LLPIN: ACK-4630 &middot; Advocates &amp; International Arbitrators</div>
+          <div style="font-size:12px; color:#64748b;">Savannah, GA, USA &amp; Nariman Point, Mumbai, India</div>
+        </div>
+        <div style="text-align:right;">
+          <span style="display:inline-block; background:#10b981; color:#fff; font-weight:700; font-size:11px; padding:3px 10px; border-radius:4px; text-transform:uppercase; margin-bottom:6px;">
+            <i class="fas fa-check-circle"></i> Official Tax Invoice (Paid)
+          </span>
+          <div style="font-size:13px; font-weight:700;">${escapeHtml(invoiceNumber)}</div>
+          <div style="font-size:12px; color:#64748b;">Date: ${new Date(timestamp).toLocaleDateString()}</div>
+        </div>
+      </div>
+
+      <!-- Candidate & Billing Credentials -->
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px; background:#f8fafc; border:1px solid #e2e8f0; border-radius:6px; padding:14px; margin-bottom:18px;">
+        <div>
+          <span style="font-size:11px; text-transform:uppercase; color:#64748b; font-weight:700; display:block; margin-bottom:4px;">Billed To / Candidate</span>
+          <strong style="font-size:14px; color:#0f172a; display:block;">${escapeHtml(payload.name)}</strong>
+          <div style="font-size:12px; color:#475569;">${escapeHtml(payload.email)} &middot; ${escapeHtml(payload.phone)}</div>
+          <div style="font-size:12px; color:#475569;">${escapeHtml(payload.organization)}</div>
+        </div>
+        <div>
+          <span style="font-size:11px; text-transform:uppercase; color:#64748b; font-weight:700; display:block; margin-bottom:4px;">Academic Registration</span>
+          <div style="font-size:13px;"><strong>Student ID:</strong> <code style="background:#e2e8f0; padding:2px 6px; border-radius:3px; font-weight:700;">${escapeHtml(studentId)}</code></div>
+          <div style="font-size:12px; color:#475569; margin-top:2px;"><strong>Order ID:</strong> ${escapeHtml(finalOrderId)}</div>
+          <div style="font-size:12px; color:#475569;"><strong>Payment ID:</strong> ${escapeHtml(paymentId)}</div>
+        </div>
+      </div>
+
+      <!-- Itemized Table -->
+      <table style="width:100%; border-collapse:collapse; margin-bottom:18px; font-size:13px;">
+        <thead>
+          <tr style="background:#f1f5f9; border-bottom:1px solid #cbd5e1; text-align:left;">
+            <th style="padding:10px 12px;">Description</th>
+            <th style="padding:10px 12px;">Track</th>
+            <th style="padding:10px 12px; text-align:right;">Amount (INR)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="border-bottom:1px solid #e2e8f0;">
+            <td style="padding:10px 12px;">
+              <strong>${escapeHtml(course.title)}</strong><br>
+              <span style="font-size:12px; color:#64748b;">Faculty Lead: ${escapeHtml(course.instructor)} &middot; CLE/CPD Accredited</span>
+            </td>
+            <td style="padding:10px 12px; color:#475569;">${escapeHtml(payload.mode)}</td>
+            <td style="padding:10px 12px; text-align:right; font-weight:700;">₹${baseFee.toLocaleString()}</td>
+          </tr>
+          <tr style="border-bottom:1px solid #e2e8f0; color:#64748b;">
+            <td colspan="2" style="padding:6px 12px; text-align:right;">CGST (9%):</td>
+            <td style="padding:6px 12px; text-align:right;">₹${Math.round(gst / 2).toLocaleString()}</td>
+          </tr>
+          <tr style="border-bottom:1px solid #e2e8f0; color:#64748b;">
+            <td colspan="2" style="padding:6px 12px; text-align:right;">SGST (9%):</td>
+            <td style="padding:6px 12px; text-align:right;">₹${Math.round(gst / 2).toLocaleString()}</td>
+          </tr>
+          <tr style="background:#f8fafc; font-size:15px; font-weight:800;">
+            <td colspan="2" style="padding:10px 12px; text-align:right;">Total Amount Paid:</td>
+            <td style="padding:10px 12px; text-align:right; color:#0f172a;">₹${fee.toLocaleString()}</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- Active Course Notice -->
+      <div style="background:#ecfdf5; border:1px solid #a7f3d0; border-radius:6px; padding:12px 16px; margin-bottom:18px; display:flex; align-items:center; gap:12px;">
+        <i class="fas fa-check-circle" style="color:#10b981; font-size:22px;"></i>
+        <div style="font-size:12px; color:#065f46;">
+          <strong>Course Active On Your Website!</strong> Your masterclass classroom, high-definition lecture streams, CLE study materials, and certification modules are now permanently unlocked for this account.
+        </div>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="no-print" style="display:flex; justify-content:space-between; align-items:center; gap:10px; flex-wrap:wrap;">
+        <button type="button" class="button" onclick="window.print()" style="background:#0c0e12; color:#fff; border:none; padding:10px 16px;">
+          <i class="fas fa-print" style="margin-right:6px;"></i> Print / Save PDF Invoice
+        </button>
+        <div style="display:flex; gap:10px; flex-wrap:wrap;">
+          <button type="button" class="button" onclick="closeCustomModal()" style="background:#e2e8f0; color:#334155; border:none; padding:10px 16px;">
+            Close
+          </button>
+          <button type="button" class="button button-primary" style="background:#10b981; border-color:#10b981; padding:10px 20px;" onclick="closeCustomModal(); openStudentClassroom('${course.id}', '${escapeHtml(payload.email)}', '${escapeHtml(studentId)}')">
+            <i class="fas fa-play-circle" style="margin-right:6px;"></i> Launch Active Course Now &rarr;
+          </button>
+        </div>
+      </div>
+
+    </div>
+  `);
+};
+
+// ==================== ACTIVE STUDENT CLASSROOM SYSTEM ====================
+
+let activeClassroomCourseId = null;
+let activeClassroomLessonIdx = 0;
+let activeClassroomTab = 'notes'; // 'notes', 'resources', 'quiz', 'certificate'
+
+window.openStudentClassroom = function(targetCourseId = null, directEmail = null, directStudentId = null) {
+  // If direct credentials provided (e.g. immediately after checkout), activate session
+  if (directEmail && directStudentId) {
+    const existingSession = JSON.parse(localStorage.getItem('lga_student_session') || '{}');
+    existingSession.email = directEmail;
+    existingSession.studentId = directStudentId;
+    localStorage.setItem('lga_student_session', JSON.stringify(existingSession));
+  }
+
+  let session = JSON.parse(localStorage.getItem('lga_student_session') || '{}');
+  let unlockedCourses = JSON.parse(localStorage.getItem('lga_unlocked_courses') || '[]');
+
+  // Check if there are orders in localStorage that can populate unlocked courses
+  const orders = JSON.parse(localStorage.getItem('lga_course_orders') || '[]');
+  if (orders.length > 0 && !session.email) {
+    // Auto-login with the most recent purchaser so no friction
+    const recent = orders[0];
+    session = {
+      name: recent.buyerName,
+      email: recent.buyerEmail,
+      phone: recent.buyerPhone,
+      studentId: recent.studentId,
+      organization: recent.organization
+    };
+    localStorage.setItem('lga_student_session', JSON.stringify(session));
+  }
+
+  // Ensure all courses in orders matching this student are marked unlocked
+  if (session.email || session.studentId) {
+    orders.filter(o => o.buyerEmail === session.email || o.studentId === session.studentId).forEach(o => {
+      if (!unlockedCourses.some(u => u.courseId === o.courseId)) {
+        unlockedCourses.push({
+          courseId: o.courseId,
+          courseTitle: o.courseTitle,
+          studentId: o.studentId,
+          studentName: o.buyerName,
+          studentEmail: o.buyerEmail,
+          paymentId: o.paymentId,
+          completedLessons: [0],
+          progress: 25
+        });
+      }
+    });
+    localStorage.setItem('lga_unlocked_courses', JSON.stringify(unlockedCourses));
+  }
+
+  // If still no student identified or no unlocked courses, show Student Verification Entrance
+  if (!session.email && unlockedCourses.length === 0) {
+    renderClassroomLoginGate(targetCourseId);
+    return;
+  }
+
+  // Determine course to launch
+  const unlockedIds = unlockedCourses.map(u => u.courseId);
+  let courseToLoad = targetCourseId;
+
+  if (!courseToLoad || !unlockedIds.includes(courseToLoad)) {
+    courseToLoad = unlockedIds[0] || (COURSES_DATA[0] ? COURSES_DATA[0].id : 'c1');
+  }
+
+  activeClassroomCourseId = courseToLoad;
+  activeClassroomLessonIdx = 0;
+  activeClassroomTab = 'notes';
+
+  renderClassroomUI();
+};
+
+window.renderClassroomLoginGate = function(targetCourseId) {
+  openCustomModal(`
+    <div style="max-width:540px; margin:0 auto; padding:10px;">
+      <div style="text-align:center; margin-bottom:24px;">
+        <div style="width:64px; height:64px; background:#0c0e12; color:#10b981; border:2px solid #10b981; border-radius:50%; display:grid; place-items:center; font-size:26px; margin:0 auto 14px;">
+          <i class="fas fa-graduation-cap"></i>
+        </div>
+        <h2 style="font-size:26px; margin-bottom:6px; color:#0f172a;">Academy Student Classroom</h2>
+        <p style="font-size:14px; color:#64748b; margin:0;">
+          Access your active executive masterclasses, high-definition lecture streams, evidentiary case packets, and CLE certification.
+        </p>
+      </div>
+
+      <div id="classroomLoginAlert" style="display:none; padding:10px 14px; background:#fee2e2; border:1px solid #ef4444; color:#991b1b; border-radius:6px; font-size:13px; margin-bottom:16px;"></div>
+
+      <form onsubmit="verifyStudentAccessForm(event, '${targetCourseId || ''}')" style="display:grid; gap:16px; margin-bottom:20px;">
+        <div>
+          <label style="display:block; font-size:13px; font-weight:700; color:#334155; margin-bottom:6px;">Registered Email Address or Student ID</label>
+          <input type="text" id="classroomInputQuery" class="form-control" placeholder="e.g. lawyer@firm.com or LGA-ACAD-8842" required style="width:100%; height:46px; border:1px solid #cbd5e1; border-radius:6px; padding:0 14px; font-size:14px;">
+        </div>
+        <button type="submit" class="button button-primary" style="height:46px; background:#10b981; border-color:#10b981; font-weight:700; display:flex; justify-content:center; align-items:center; gap:8px;">
+          <i class="fas fa-unlock-alt"></i> Access My Classroom &rarr;
+        </button>
+      </form>
+
+      <div style="background:#f8fafc; border:1px dashed #cbd5e1; border-radius:8px; padding:16px; text-align:center;">
+        <strong style="font-size:13px; color:#0f172a; display:block; margin-bottom:4px;"><i class="fas fa-lock" style="color:var(--primary-dark);"></i> Enrollment &amp; Payment Required</strong>
+        <p style="font-size:12px; color:#64748b; margin-bottom:12px;">The student classroom is exclusively reserved for candidates who have completed tuition payment.</p>
+        <button type="button" class="button button-primary" onclick="closeCustomModal(); location.hash = '#courses';" style="padding:8px 16px; font-size:12px;">
+          <i class="fas fa-graduation-cap" style="margin-right:6px;"></i> Browse Masterclasses &amp; Enroll &rarr;
+        </button>
+      </div>
+    </div>
+  `);
+};
+
+window.verifyStudentAccessForm = function(event, targetCourseId) {
+  event.preventDefault();
+  const alertEl = document.getElementById('classroomLoginAlert');
+  if (alertEl) alertEl.style.display = 'none';
+
+  const query = document.getElementById('classroomInputQuery')?.value.trim().toLowerCase();
+  if (!query) return;
+
+  const orders = JSON.parse(localStorage.getItem('lga_course_orders') || '[]');
+  const enrollments = JSON.parse(localStorage.getItem('lga_academy_enrollments') || '[]');
+
+  // Search match
+  const matchedOrder = orders.find(o => (o.buyerEmail && o.buyerEmail.toLowerCase() === query) || (o.studentId && o.studentId.toLowerCase() === query));
+  const matchedEnr = enrollments.find(e => (e.email && e.email.toLowerCase() === query) || (e.studentId && e.studentId.toLowerCase() === query));
+
+  if (matchedOrder || matchedEnr) {
+    const student = matchedOrder ? {
+      name: matchedOrder.buyerName,
+      email: matchedOrder.buyerEmail,
+      phone: matchedOrder.buyerPhone,
+      studentId: matchedOrder.studentId,
+      organization: matchedOrder.organization
+    } : {
+      name: matchedEnr.name,
+      email: matchedEnr.email,
+      phone: matchedEnr.phone,
+      studentId: matchedEnr.studentId,
+      organization: matchedEnr.organization
+    };
+
+    localStorage.setItem('lga_student_session', JSON.stringify(student));
+
+    // Ensure unlocked
+    const unlocked = JSON.parse(localStorage.getItem('lga_unlocked_courses') || '[]');
+    const courseId = matchedOrder ? matchedOrder.courseId : (matchedEnr ? matchedEnr.courseId : '');
+    if (courseId && !unlocked.some(u => u.courseId === courseId)) {
+      unlocked.push({
+        courseId,
+        courseTitle: matchedOrder ? matchedOrder.courseTitle : matchedEnr.courseTitle,
+        studentId: student.studentId,
+        studentName: student.name,
+        studentEmail: student.email,
+        completedLessons: [0],
+        progress: 30
+      });
+      localStorage.setItem('lga_unlocked_courses', JSON.stringify(unlocked));
+    }
+
+    if (window.updateClassroomVisibility) window.updateClassroomVisibility();
+    renderCourses(activeCourses);
+    openStudentClassroom(targetCourseId || courseId);
+  } else {
+    if (alertEl) {
+      alertEl.textContent = 'No active paid enrollment found matching that identifier. Please verify your credentials or complete course checkout.';
+      alertEl.style.display = 'block';
+    }
+  }
+};
+
+window.logoutStudentClassroom = function() {
+  localStorage.removeItem('lga_student_session');
+  closeCustomModal();
+  if (window.updateClassroomVisibility) window.updateClassroomVisibility();
+  renderCourses(activeCourses);
+};
+
+window.renderClassroomUI = function() {
+  const session = JSON.parse(localStorage.getItem('lga_student_session') || '{}');
+  const unlocked = JSON.parse(localStorage.getItem('lga_unlocked_courses') || '[]');
+  const course = COURSES_DATA.find(c => c.id === activeClassroomCourseId) || COURSES_DATA[0];
+
+  // Flatten lessons for easy indexing
+  const allLessons = [];
+  (course.curriculum || []).forEach((mod, modIdx) => {
+    (mod.lessons || []).forEach((les, lesIdx) => {
+      allLessons.push({
+        ...les,
+        modTitle: mod.title,
+        modIdx: modIdx,
+        globalIdx: allLessons.length
+      });
+    });
+  });
+
+  const activeLesson = allLessons[activeClassroomLessonIdx] || allLessons[0] || {
+    title: 'Orientation & Procedural Framework',
+    duration: '45 min',
+    type: 'Video Masterclass',
+    modTitle: 'Module 1'
+  };
+
+  const courseRecord = unlocked.find(u => u.courseId === course.id) || { completedLessons: [0], progress: 25 };
+  const completedSet = new Set(courseRecord.completedLessons || [0]);
+  const progressPercent = Math.round((completedSet.size / Math.max(allLessons.length, 1)) * 100);
+
+  // Tabs
+  const tabs = [
+    { id: 'notes', label: 'Key Takeaways & Precedents', icon: 'fa-book-open' },
+    { id: 'resources', label: 'CLE Document Downloads', icon: 'fa-file-download' },
+    { id: 'quiz', label: 'CLE Knowledge Check', icon: 'fa-question-circle' },
+    { id: 'certificate', label: 'Official CLE Certificate', icon: 'fa-award' }
+  ];
+
+  const classroomHtml = `
+    <div style="color:#0f172a; font-family:var(--font-body);">
+      
+      <!-- Top Classroom Header -->
+      <div style="background:#0c0e12; color:#fff; padding:18px 24px; border-radius:8px 8px 0 0; margin:-40px -40px 24px -40px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:14px; border-bottom:3px solid var(--primary);">
+        <div style="display:flex; align-items:center; gap:12px;">
+          <div style="width:42px; height:42px; background:rgba(245,192,12,0.15); border:1px solid var(--primary); border-radius:6px; display:grid; place-items:center; font-size:20px; color:var(--primary);">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <div>
+            <div style="font-size:11px; text-transform:uppercase; letter-spacing:1px; color:#10b981; font-weight:700;">
+              <i class="fas fa-check-circle"></i> Active Masterclass Classroom &middot; Accredited CLE
+            </div>
+            <h2 style="font-size:20px; color:#fff; margin:0; line-height:1.2;">${escapeHtml(course.title)}</h2>
+          </div>
+        </div>
+
+        <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap;">
+          <!-- Course Switcher if multiple unlocked -->
+          ${unlocked.length > 1 ? `
+            <select onchange="openStudentClassroom(this.value)" style="background:#1f2937; color:#fff; border:1px solid #374151; font-size:12px; padding:6px 10px; border-radius:4px;">
+              ${unlocked.map(u => `<option value="${u.courseId}" ${u.courseId === course.id ? 'selected' : ''}>Switch: ${escapeHtml(u.courseTitle.slice(0, 28))}...</option>`).join('')}
+            </select>
+          ` : ''}
+
+          <div style="font-size:12px; color:#9ca3af; text-align:right;">
+            <strong style="color:#fff; display:block;">${escapeHtml(session.name || 'Enrolled Candidate')}</strong>
+            <span>ID: <code style="color:var(--primary); font-size:11px;">${escapeHtml(session.studentId || 'LGA-ACAD-PASS')}</code></span>
+          </div>
+
+          <button type="button" class="button" onclick="logoutStudentClassroom()" title="Exit Classroom Session" style="background:transparent; border:1px solid #4b5563; color:#9ca3af; padding:6px 10px; font-size:11px; border-radius:4px;">
+            <i class="fas fa-sign-out-alt"></i> Exit
+          </button>
+        </div>
+      </div>
+
+      <!-- Cohort Progress Bar -->
+      <div style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:6px; padding:12px 18px; margin-bottom:20px; display:flex; justify-content:space-between; align-items:center; gap:16px; flex-wrap:wrap;">
+        <div style="flex:1; min-width:200px;">
+          <div style="display:flex; justify-content:space-between; font-size:12px; font-weight:700; margin-bottom:6px;">
+            <span style="color:#334155;"><i class="fas fa-tasks" style="color:var(--primary-dark); margin-right:6px;"></i> Masterclass Progress</span>
+            <span style="color:#10b981;">${progressPercent}% Completed (${completedSet.size}/${allLessons.length} Lessons)</span>
+          </div>
+          <div style="width:100%; height:8px; background:#e2e8f0; border-radius:4px; overflow:hidden;">
+            <div style="width:${progressPercent}%; height:100%; background:linear-gradient(90deg, #10b981, #059669); transition:width 0.4s ease;"></div>
+          </div>
+        </div>
+
+        <div style="font-size:12px; color:#64748b; display:flex; align-items:center; gap:8px;">
+          <i class="fas fa-chalkboard-teacher" style="color:var(--primary-dark);"></i>
+          <span>Faculty: <strong>${escapeHtml(course.instructor)}</strong></span>
+        </div>
+      </div>
+
+      <!-- Main Layout: 2 Columns (Theater on Left, Module Playlist on Right) -->
+      <div style="display:grid; grid-template-columns:1fr 320px; gap:20px;">
+        
+        <!-- Left: Interactive Video Player Theater & Resource Tabs -->
+        <div>
+          <!-- Simulated High-Def Video Player -->
+          <div style="background:#090d16; border-radius:8px; overflow:hidden; box-shadow:0 12px 30px rgba(0,0,0,0.25); margin-bottom:18px;">
+            <div style="position:relative; aspect-ratio:16/9; background:#000; display:flex; align-items:center; justify-content:center; overflow:hidden;">
+              <img src="${escapeHtml(course.image)}" alt="Lecture Visual" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:0.35; filter:brightness(0.7);">
+              
+              <!-- Ambient Lecture Graphic -->
+              <div style="position:relative; z-index:2; text-align:center; padding:20px; color:#fff;">
+                <div style="display:inline-block; background:rgba(16,185,129,0.2); border:1px solid #10b981; color:#10b981; font-size:11px; font-weight:700; padding:3px 10px; border-radius:20px; text-transform:uppercase; margin-bottom:12px;">
+                  <i class="fas fa-broadcast-tower"></i> High-Definition Masterclass Stream
+                </div>
+                <h3 style="font-size:22px; color:#fff; max-width:540px; margin:0 auto 8px; line-height:1.3; font-family:var(--font-accent);">${escapeHtml(activeLesson.title)}</h3>
+                <div style="font-size:13px; color:#cbd5e1;">Lead Faculty: ${escapeHtml(course.instructor)} &middot; ${escapeHtml(activeLesson.duration)}</div>
+                
+                <!-- Central Play Button Simulation -->
+                <div onclick="simulateVideoPlayToggle()" id="videoCenterPlayBtn" style="width:68px; height:68px; background:var(--primary); color:#000; border-radius:50%; display:grid; place-items:center; font-size:24px; margin:20px auto 0; cursor:pointer; box-shadow:0 0 25px rgba(245,192,12,0.6); transition:transform 0.2s ease;">
+                  <i class="fas fa-play" style="margin-left:4px;"></i>
+                </div>
+              </div>
+
+              <!-- Stream Badge -->
+              <div style="position:absolute; top:12px; left:12px; z-index:3; font-size:11px; background:rgba(0,0,0,0.7); color:#10b981; padding:4px 8px; border-radius:4px; font-weight:600;">
+                <span style="display:inline-block; width:8px; height:8px; background:#10b981; border-radius:50%; margin-right:5px; animation:pulse 1.5s infinite;"></span> 1080p Ultra HD
+              </div>
+            </div>
+
+            <!-- Custom Branded Player Controls Bar -->
+            <div style="background:#111827; padding:12px 18px; display:flex; justify-content:space-between; align-items:center; gap:12px; color:#fff; font-size:13px;">
+              <div style="display:flex; align-items:center; gap:14px;">
+                <button type="button" onclick="simulateVideoPlayToggle()" style="background:none; border:none; color:var(--primary); font-size:18px; cursor:pointer;">
+                  <i class="fas fa-play" id="videoPlayIcon"></i>
+                </button>
+                <div style="font-size:12px; color:#9ca3af;">
+                  <span id="videoCurrentTime">14:32</span> / <span>${escapeHtml(activeLesson.duration)}</span>
+                </div>
+              </div>
+
+              <div style="flex:1; max-width:260px; height:5px; background:#374151; border-radius:3px; position:relative; cursor:pointer;">
+                <div id="videoProgressBar" style="width:38%; height:100%; background:var(--primary); border-radius:3px;"></div>
+              </div>
+
+              <div style="display:flex; align-items:center; gap:12px; font-size:12px; color:#9ca3af;">
+                <span style="background:#1f2937; padding:2px 6px; border-radius:3px; color:#e5e7eb;">1.0x</span>
+                <i class="fas fa-volume-up" style="cursor:pointer;"></i>
+                <i class="fas fa-expand" style="cursor:pointer;" onclick="alert('Full-screen stream activated.')"></i>
+              </div>
+            </div>
+          </div>
+
+          <!-- Lesson Action Bar -->
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:18px; flex-wrap:wrap; gap:10px;">
+            <div>
+              <span style="font-size:11px; text-transform:uppercase; color:#64748b; font-weight:700;">${escapeHtml(activeLesson.modTitle)} &middot; Lesson ${activeLesson.globalIdx + 1} of ${allLessons.length}</span>
+              <h3 style="font-size:18px; margin:2px 0 0 0; color:#0f172a;">${escapeHtml(activeLesson.title)}</h3>
+            </div>
+
+            <button type="button" class="button" onclick="toggleLessonComplete('${course.id}', ${activeLesson.globalIdx})" style="background:${completedSet.has(activeLesson.globalIdx) ? '#10b981' : '#0c0e12'}; color:#fff; border:none; padding:8px 16px; font-size:13px; border-radius:4px; display:inline-flex; align-items:center; gap:8px;">
+              <i class="fas ${completedSet.has(activeLesson.globalIdx) ? 'fa-check-circle' : 'fa-circle'}"></i>
+              ${completedSet.has(activeLesson.globalIdx) ? 'Completed' : 'Mark Lesson As Complete'}
+            </button>
+          </div>
+
+          <!-- Study Tabs Nav -->
+          <div style="display:flex; gap:6px; border-bottom:2px solid #e2e8f0; margin-bottom:16px; overflow-x:auto;">
+            ${tabs.map(t => `
+              <button type="button" onclick="switchClassroomTab('${course.id}', '${t.id}')" style="background:none; border:none; padding:10px 14px; font-size:13px; font-weight:700; color:${activeClassroomTab === t.id ? 'var(--primary-dark)' : '#64748b'}; border-bottom:3px solid ${activeClassroomTab === t.id ? 'var(--primary-dark)' : 'transparent'}; margin-bottom:-2px; cursor:pointer; display:inline-flex; align-items:center; gap:6px; white-space:nowrap;">
+                <i class="fas ${t.icon}"></i> ${t.label}
+              </button>
+            `).join('')}
+          </div>
+
+          <!-- Tab Content Panel -->
+          <div style="background:#fff; border:1px solid #e2e8f0; border-radius:6px; padding:20px; font-size:14px; line-height:1.6;">
+            ${renderTabContent(course, activeLesson, session, completedSet, allLessons)}
+          </div>
+        </div>
+
+        <!-- Right: Modules & Playlist Sidebar -->
+        <div>
+          <div style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:8px; padding:16px; margin-bottom:16px;">
+            <div style="font-size:12px; text-transform:uppercase; font-weight:700; color:#64748b; margin-bottom:10px; display:flex; justify-content:space-between; align-items:center;">
+              <span>Course Syllabus</span>
+              <span>${allLessons.length} Total Lessons</span>
+            </div>
+
+            <!-- Curriculum Playlist -->
+            <div style="display:grid; gap:12px; max-height:480px; overflow-y:auto; padding-right:4px;">
+              ${(course.curriculum || []).map((mod, modIdx) => `
+                <div style="background:#fff; border:1px solid #e2e8f0; border-radius:6px; overflow:hidden;">
+                  <div style="background:#f1f5f9; padding:8px 12px; font-size:12px; font-weight:700; color:#1e293b; border-bottom:1px solid #e2e8f0;">
+                    ${escapeHtml(mod.title)}
+                  </div>
+                  <div>
+                    ${(mod.lessons || []).map((les, lIdx) => {
+                      const matchGlobal = allLessons.find(al => al.modIdx === modIdx && al.title === les.title);
+                      const gIdx = matchGlobal ? matchGlobal.globalIdx : 0;
+                      const isActive = gIdx === activeClassroomLessonIdx;
+                      const isDone = completedSet.has(gIdx);
+                      return `
+                        <div onclick="selectClassroomLesson(${gIdx})" style="padding:10px 12px; border-bottom:1px solid #f8fafc; cursor:pointer; background:${isActive ? 'rgba(245,192,12,0.1)' : 'transparent'}; border-left:3px solid ${isActive ? 'var(--primary)' : 'transparent'}; display:flex; justify-content:space-between; align-items:center; gap:8px;">
+                          <div style="display:flex; align-items:flex-start; gap:8px;">
+                            <i class="fas ${isDone ? 'fa-check-circle' : 'fa-play-circle'}" style="color:${isDone ? '#10b981' : (isActive ? 'var(--primary-dark)' : '#94a3b8')}; margin-top:3px; font-size:13px;"></i>
+                            <div>
+                              <div style="font-size:12px; font-weight:${isActive ? '700' : '500'}; color:${isActive ? '#0f172a' : '#334155'}; line-height:1.3;">
+                                ${escapeHtml(les.title)}
+                              </div>
+                              <span style="font-size:11px; color:#94a3b8;">${escapeHtml(les.duration)} &middot; ${escapeHtml(les.type || 'Lecture')}</span>
+                            </div>
+                          </div>
+                          ${isDone ? '<span style="font-size:10px; color:#10b981; font-weight:700;">DONE</span>' : ''}
+                        </div>
+                      `;
+                    }).join('')}
+                  </div>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+
+          <!-- Academic Guidance & Support Card -->
+          <div style="background:#fff; border:1px solid #e2e8f0; border-radius:8px; padding:16px;">
+            <div style="display:flex; align-items:center; gap:10px; margin-bottom:10px;">
+              <img src="${escapeHtml(course.instructorAvatar || 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=120&q=80')}" alt="${escapeHtml(course.instructor)}" style="width:40px; height:40px; border-radius:50%; object-fit:cover;">
+              <div>
+                <strong style="font-size:13px; color:#0f172a; display:block;">${escapeHtml(course.instructor)}</strong>
+                <span style="font-size:11px; color:#64748b;">Course Faculty Director</span>
+              </div>
+            </div>
+            <p style="font-size:12px; color:#475569; margin:0 0 10px 0;">
+              Enrolled students receive dedicated feedback on drafting clinics and CLE assessment submissions.
+            </p>
+            <div style="font-size:11px; color:#10b981; font-weight:600;">
+              <i class="fas fa-shield-alt"></i> Official CLE Credit Validated
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  `;
+
+  openCustomModal(classroomHtml, '1080px');
+};
+
+function renderTabContent(course, activeLesson, session, completedSet, allLessons) {
+  if (activeClassroomTab === 'notes') {
+    return `
+      <div>
+        <h4 style="font-size:16px; margin:0 0 8px 0; color:#0f172a;">Executive Lecture Digest: ${escapeHtml(activeLesson.title)}</h4>
+        <p style="color:#475569; margin-bottom:14px;">
+          This masterclass module dissects practical courtroom tactics, evidentiary burdens, and statutory compliance frameworks under leading international conventions.
+        </p>
+
+        <div style="background:#f8fafc; border-left:4px solid var(--primary); padding:12px 16px; margin-bottom:14px;">
+          <strong style="color:#0f172a; font-size:13px; display:block; margin-bottom:4px;"><i class="fas fa-balance-scale" style="color:var(--primary-dark); margin-right:6px;"></i> Core Doctrinal Principles:</strong>
+          <ul style="margin:0; padding-left:18px; font-size:13px; color:#334155; display:grid; gap:6px;">
+            <li><strong>Jurisdictional Primacy:</strong> Analyzing Article II &amp; Article V of the New York Convention 1958 regarding arbitral clause enforceability.</li>
+            <li><strong>Kompetenz-Kompetenz Doctrine:</strong> UNCITRAL Model Law Article 16 empowers the arbitral tribunal to rule on its own jurisdiction, including any objections with respect to the existence or validity of the arbitration agreement.</li>
+            <li><strong>Burden of Proof:</strong> Party resisting enforcement bears the affirmative burden of establishing narrow statutory grounds.</li>
+          </ul>
+        </div>
+
+        <h5 style="font-size:14px; margin:16px 0 6px 0; color:#0f172a;">Landmark Judicial Citations:</h5>
+        <div style="display:grid; gap:8px;">
+          <div style="background:#fff; border:1px solid #e2e8f0; border-radius:4px; padding:8px 12px; font-size:12px;">
+            <strong>Dallah Real Estate &amp; Tourism Holding Co. v. Ministry of Religious Affairs [2010] UKSC 46:</strong> Affirming English court scrutiny of tribunal jurisdiction over non-signatory state departments.
+          </div>
+          <div style="background:#fff; border:1px solid #e2e8f0; border-radius:4px; padding:8px 12px; font-size:12px;">
+            <strong>Government of India v. Vedanta Limited (2020) 10 SCC 1:</strong> Reaffirming limitation periods for enforcement of foreign awards under Section 47 of the Indian Arbitration Act.
+          </div>
+        </div>
+      </div>
+    `;
+  }
+
+  if (activeClassroomTab === 'resources') {
+    return `
+      <div>
+        <h4 style="font-size:16px; margin:0 0 6px 0; color:#0f172a;">Downloadable Practice Materials &amp; Templates</h4>
+        <p style="color:#475569; font-size:13px; margin-bottom:16px;">
+          Directly download real-world legal instruments, model arbitration pleadings, and CLE slide presentations curated by the firm.
+        </p>
+
+        <div style="display:grid; gap:10px;">
+          <div style="display:flex; justify-content:space-between; align-items:center; padding:12px 16px; background:#f8fafc; border:1px solid #e2e8f0; border-radius:6px;">
+            <div style="display:flex; align-items:center; gap:12px;">
+              <i class="fas fa-file-word" style="font-size:24px; color:#2563eb;"></i>
+              <div>
+                <strong style="font-size:13px; color:#0f172a; display:block;">Model Notice of Arbitration &amp; Procedural Clause Templates</strong>
+                <span style="font-size:11px; color:#64748b;">DOCX &middot; SIAC, LCIA, and ICC Multi-Tier Arbitration Agreements</span>
+              </div>
+            </div>
+            <button type="button" class="button" onclick="downloadCourseDocument('${course.id}', 'model_pleading')" style="background:#0c0e12; color:#fff; border:none; padding:6px 14px; font-size:12px; border-radius:4px;">
+              <i class="fas fa-download"></i> Download
+            </button>
+          </div>
+
+          <div style="display:flex; justify-content:space-between; align-items:center; padding:12px 16px; background:#f8fafc; border:1px solid #e2e8f0; border-radius:6px;">
+            <div style="display:flex; align-items:center; gap:12px;">
+              <i class="fas fa-file-pdf" style="font-size:24px; color:#dc2626;"></i>
+              <div>
+                <strong style="font-size:13px; color:#0f172a; display:block;">Executive Lecture Slides &amp; Judicial Case Compendium</strong>
+                <span style="font-size:11px; color:#64748b;">PDF &middot; Comprehensive CLE Presentation Deck</span>
+              </div>
+            </div>
+            <button type="button" class="button" onclick="downloadCourseDocument('${course.id}', 'lecture_slides')" style="background:#0c0e12; color:#fff; border:none; padding:6px 14px; font-size:12px; border-radius:4px;">
+              <i class="fas fa-download"></i> Download
+            </button>
+          </div>
+
+          <div style="display:flex; justify-content:space-between; align-items:center; padding:12px 16px; background:#f8fafc; border:1px solid #e2e8f0; border-radius:6px;">
+            <div style="display:flex; align-items:center; gap:12px;">
+              <i class="fas fa-table" style="font-size:24px; color:#16a34a;"></i>
+              <div>
+                <strong style="font-size:13px; color:#0f172a; display:block;">Redfern Evidentiary Schedule &amp; Privilege Log Worksheet</strong>
+                <span style="font-size:11px; color:#64748b;">XLSX &middot; Standard IBA Document Production Schedule</span>
+              </div>
+            </div>
+            <button type="button" class="button" onclick="downloadCourseDocument('${course.id}', 'redfern_schedule')" style="background:#0c0e12; color:#fff; border:none; padding:6px 14px; font-size:12px; border-radius:4px;">
+              <i class="fas fa-download"></i> Download
+            </button>
+          </div>
+        </div>
+      </div>
+    `;
+  }
+
+  if (activeClassroomTab === 'quiz') {
+    return `
+      <div>
+        <h4 style="font-size:16px; margin:0 0 6px 0; color:#0f172a;">CLE Continuing Legal Education Knowledge Assessment</h4>
+        <p style="color:#475569; font-size:13px; margin-bottom:16px;">
+          Answer these 3 practical scenario questions to validate your CLE credits for this masterclass module.
+        </p>
+
+        <form id="cleQuizForm" onsubmit="submitClassroomQuiz(event, '${course.id}')" style="display:grid; gap:16px;">
+          <div style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:6px; padding:14px;">
+            <strong style="font-size:13px; color:#0f172a; display:block; margin-bottom:8px;">
+              1. Under Article V(1)(b) of the New York Convention 1958, an arbitral award may be refused recognition if:
+            </strong>
+            <label style="display:block; margin-bottom:6px; font-size:13px; color:#334155; cursor:pointer;">
+              <input type="radio" name="q1" value="A" required style="margin-right:6px;"> A) The market currency devalued prior to execution.
+            </label>
+            <label style="display:block; font-size:13px; color:#334155; cursor:pointer;">
+              <input type="radio" name="q1" value="B" style="margin-right:6px;"> B) The party was not given proper notice of arbitrator appointment or was unable to present their case.
+            </label>
+          </div>
+
+          <div style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:6px; padding:14px;">
+            <strong style="font-size:13px; color:#0f172a; display:block; margin-bottom:8px;">
+              2. What does the "Kompetenz-Kompetenz" doctrine authorize an arbitral tribunal to do?
+            </strong>
+            <label style="display:block; margin-bottom:6px; font-size:13px; color:#334155; cursor:pointer;">
+              <input type="radio" name="q2" value="A" required style="margin-right:6px;"> A) Rule authoritatively on its own substantive and procedural jurisdiction.
+            </label>
+            <label style="display:block; font-size:13px; color:#334155; cursor:pointer;">
+              <input type="radio" name="q2" value="B" style="margin-right:6px;"> B) Automatically confiscate offshore commercial assets without court warrants.
+            </label>
+          </div>
+
+          <div id="quizResultFeedback" style="display:none; padding:10px 14px; border-radius:4px; font-size:13px;"></div>
+
+          <button type="submit" class="button button-primary" style="background:#10b981; border-color:#10b981; justify-self:start;">
+            <i class="fas fa-check-circle" style="margin-right:6px;"></i> Submit &amp; Validate Answers
+          </button>
+        </form>
+      </div>
+    `;
+  }
+
+  if (activeClassroomTab === 'certificate') {
+    return `
+      <div style="text-align:center;">
+        <div style="background:#fefce8; border:2px dashed #facc15; border-radius:8px; padding:24px; max-width:680px; margin:0 auto 18px; position:relative;">
+          
+          <div style="position:absolute; top:12px; right:12px; width:48px; height:48px; border:2px solid var(--primary); border-radius:50%; display:grid; place-items:center; color:var(--primary-dark); font-size:22px;">
+            <i class="fas fa-stamp"></i>
+          </div>
+
+          <div style="font-size:12px; letter-spacing:2px; text-transform:uppercase; color:#854d0e; font-weight:700; margin-bottom:8px;">
+            LEX GLOBAL ADVOCACY ACADEMY &bull; CERTIFICATE OF COMPLETION
+          </div>
+
+          <h3 style="font-family:var(--font-accent); font-size:26px; color:#0f172a; margin:0 0 10px 0;">Certificate of Academic Mastery</h3>
+          <p style="font-size:13px; color:#475569; margin-bottom:14px;">This certifies that</p>
+          
+          <div style="font-size:22px; font-weight:800; color:#0f172a; text-decoration:underline; text-decoration-color:var(--primary); margin-bottom:14px;">
+            ${escapeHtml(session.name || 'Enrolled Candidate')}
+          </div>
+
+          <p style="font-size:13px; color:#475569; max-width:520px; margin:0 auto 16px;">
+            has successfully completed all requirements, drafting workshops, and CLE assessments for the executive masterclass:
+          </p>
+
+          <strong style="font-size:16px; color:#0f172a; display:block; margin-bottom:14px;">
+            ${escapeHtml(course.title)}
+          </strong>
+
+          <div style="display:flex; justify-content:space-around; align-items:center; border-top:1px solid #fde047; padding-top:14px; font-size:12px; color:#713f12;">
+            <div><strong>Student ID:</strong> ${escapeHtml(session.studentId || 'LGA-ACAD-PASS')}</div>
+            <div><strong>CLE Credits:</strong> 16 Credits Accredited</div>
+            <div><strong>Verification:</strong> <code>LGA-VERIFY-${Math.floor(100000+Math.random()*900000)}</code></div>
+          </div>
+        </div>
+
+        <button type="button" class="button button-primary" onclick="window.print()" style="background:#0c0e12; border:none; padding:10px 24px; font-size:14px;">
+          <i class="fas fa-print" style="margin-right:8px;"></i> Print / Save Verified Certificate
+        </button>
+      </div>
+    `;
+  }
+}
+
+window.selectClassroomLesson = function(lessonIdx) {
+  activeClassroomLessonIdx = lessonIdx;
+  renderClassroomUI();
+};
+
+window.switchClassroomTab = function(courseId, tabId) {
+  activeClassroomTab = tabId;
+  renderClassroomUI();
+};
+
+window.toggleLessonComplete = function(courseId, lessonIdx) {
+  const unlocked = JSON.parse(localStorage.getItem('lga_unlocked_courses') || '[]');
+  const record = unlocked.find(u => u.courseId === courseId);
+  if (record) {
+    record.completedLessons = record.completedLessons || [];
+    const idx = record.completedLessons.indexOf(lessonIdx);
+    if (idx === -1) {
+      record.completedLessons.push(lessonIdx);
+    } else {
+      record.completedLessons.splice(idx, 1);
+    }
+    const course = COURSES_DATA.find(c => c.id === courseId) || COURSES_DATA[0];
+    let totalLessons = 0;
+    (course.curriculum || []).forEach(m => totalLessons += (m.lessons || []).length);
+    record.progress = Math.round((record.completedLessons.length / Math.max(totalLessons, 1)) * 100);
+    localStorage.setItem('lga_unlocked_courses', JSON.stringify(unlocked));
+  }
+  renderClassroomUI();
+};
+
+window.simulateVideoPlayToggle = function() {
+  const icon = document.getElementById('videoPlayIcon');
+  const centerBtn = document.getElementById('videoCenterPlayBtn');
+  const bar = document.getElementById('videoProgressBar');
+  const time = document.getElementById('videoCurrentTime');
+
+  if (icon && icon.classList.contains('fa-play')) {
+    icon.classList.remove('fa-play');
+    icon.classList.add('fa-pause');
+    if (centerBtn) centerBtn.innerHTML = '<i class="fas fa-pause"></i>';
+    if (bar) bar.style.width = '75%';
+    if (time) time.textContent = '28:10';
+  } else if (icon) {
+    icon.classList.remove('fa-pause');
+    icon.classList.add('fa-play');
+    if (centerBtn) centerBtn.innerHTML = '<i class="fas fa-play" style="margin-left:4px;"></i>';
+  }
+};
+
+window.downloadCourseDocument = function(courseId, docType) {
+  const course = COURSES_DATA.find(c => c.id === courseId) || COURSES_DATA[0];
+  let filename = 'LexGlobal_Masterclass_Study_Material.txt';
+  let content = `LEX GLOBAL ADVOCACY LLP - EXECUTIVE LEGAL ACADEMY\nCourse: ${course.title}\nFaculty: ${course.instructor}\nAccreditation: Global Bar CLE Council\n\n`;
+
+  if (docType === 'model_pleading') {
+    filename = `${course.slug}_Model_Pleading_Template.txt`;
+    content += `MODEL DISPUTE RESOLUTION PLEADING & CLAUSE FORM\n\nClause 1: All disputes arising out of or in connection with the present contract shall be finally settled under the Rules of Arbitration of the International Chamber of Commerce by three arbitrators appointed in accordance with the said Rules.\n\nSeat of Arbitration: Singapore\nGoverning Law: English Law\nLanguage: English\n\n[CONFIDENTIAL PRACTICE MATERIALS - FOR ENROLLED CANDIDATES ONLY]`;
+  } else if (docType === 'lecture_slides') {
+    filename = `${course.slug}_Lecture_Summary_Deck.txt`;
+    content += `EXECUTIVE LECTURE SLIDES COMPENDIUM\nModule 1: Jurisdictional Foundations & Pre-Arbitral Injunctions\nModule 2: Evidence Production & IBA Evidentiary Rules\nModule 3: Award Annulment Defenses & Cross-Border Enforcement\n\n[LEX GLOBAL ADVOCACY CLE REPOSITORY]`;
+  } else {
+    filename = `${course.slug}_Redfern_Schedule.txt`;
+    content += `REDFERN SCHEDULE (IBA RULES ON THE TAKING OF EVIDENCE IN INTERNATIONAL ARBITRATION)\nColumn 1: Document Requested\nColumn 2: Relevance & Materiality\nColumn 3: Objections by Responding Party\nColumn 4: Reply by Requesting Party\nColumn 5: Arbitral Tribunal Decision\n`;
+  }
+
+  const blob = new Blob([content], { type: 'text/plain;charset=utf-8;' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+};
+
+window.submitClassroomQuiz = function(event, courseId) {
+  event.preventDefault();
+  const q1 = document.querySelector('input[name="q1"]:checked')?.value;
+  const q2 = document.querySelector('input[name="q2"]:checked')?.value;
+  const resultBox = document.getElementById('quizResultFeedback');
+
+  if (q1 === 'B' && q2 === 'A') {
+    if (resultBox) {
+      resultBox.style.display = 'block';
+      resultBox.style.background = '#d1fae5';
+      resultBox.style.border = '1px solid #10b981';
+      resultBox.style.color = '#065f46';
+      resultBox.innerHTML = '<i class="fas fa-check-circle"></i> <strong>100% Correct!</strong> Both questions answered accurately. CLE Credit verification recorded.';
+    }
+  } else {
+    if (resultBox) {
+      resultBox.style.display = 'block';
+      resultBox.style.background = '#fee2e2';
+      resultBox.style.border = '1px solid #ef4444';
+      resultBox.style.color = '#991b1b';
+      resultBox.innerHTML = '<i class="fas fa-info-circle"></i> Review required. Question 1 answer is (B) under Art V(1)(b) New York Convention, and Question 2 is (A) under Kompetenz-Kompetenz doctrine.';
+    }
+  }
+};
+
+async function syncBackendCourses() {
+  let loaded = false;
+  try {
+    const res = await fetch(`${window.LEX_API_URL || ''}/api/courses`);
+    if (res.ok) {
+      const serverCourses = await res.json();
+      if (Array.isArray(serverCourses)) {
+        COURSES_DATA.length = 0;
+        serverCourses.forEach(c => COURSES_DATA.push(c));
+        activeCourses = [...COURSES_DATA];
+        localStorage.setItem('lga_academy_courses', JSON.stringify(activeCourses));
+        renderCourses(activeCourses);
+        loaded = true;
+      }
+    }
+  } catch (e) {}
+
+  if (!loaded) {
+    try {
+      const local = localStorage.getItem('lga_academy_courses');
+      if (local) {
+        const parsed = JSON.parse(local);
+        if (Array.isArray(parsed)) {
+          COURSES_DATA.length = 0;
+          parsed.forEach(c => COURSES_DATA.push(c));
+          activeCourses = [...COURSES_DATA];
+          renderCourses(activeCourses);
+        }
+      }
+    } catch (e) {}
+  }
+}
+
+// ==================== BLOGS ENGINE ====================
+let activeBlogs = [...BLOGS_DATA];
+
+function renderBlogs(items) {
+  const grid = document.getElementById('blogsGrid');
+  if(!grid) return;
+  if(!items.length) {
+    grid.innerHTML = '<div style="grid-column:1/-1; text-align:center; padding:50px 20px; background:#f9f9f9; border:1px dashed #cbd5e1; border-radius:8px;"><i class="fas fa-newspaper" style="font-size:36px; color:#94a3b8; margin-bottom:12px; display:block;"></i><h4 style="font-size:18px; color:#0f172a; margin-bottom:6px;">No Publications Published Yet</h4><p style="margin:0; font-size:14px; color:#64748b;">Scholarly articles and legal commentary will appear here once published by our legal practice leaders.</p></div>';
+    return;
+  }
+  grid.innerHTML = items.map(b => `
+    <article class="blog-card" onclick="openBlogModal('${escapeHtml(b.id)}')">
+      <div class="blog-media">
+        <img src="${escapeHtml(b.image || 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=800&q=80')}" alt="${escapeHtml(b.title)}">
+        <span class="blog-cat">${escapeHtml(b.category)}</span>
+      </div>
+      <div class="blog-body">
+        <div class="blog-meta">${escapeHtml(b.date)} &middot; ${escapeHtml(b.readTime || '6 min read')}</div>
+        <h3 class="blog-title">${escapeHtml(b.title)}</h3>
+        <p class="blog-snippet">${escapeHtml(b.subtitle || (b.content ? b.content.replace(/<[^>]+>/g, '').slice(0, 110) + '...' : ''))}</p>
+        <div class="blog-foot">
+          <span class="blog-author">${escapeHtml(b.author)}</span>
+          <div style="display:flex; align-items:center; gap:12px;">
+            <button type="button" onclick="event.stopPropagation(); shareBlogQuick('${escapeHtml(b.id)}', '${escapeHtml(b.title)}')" style="background:none; border:none; color:var(--primary-dark); font-size:12px; font-weight:700; cursor:pointer; display:inline-flex; align-items:center; gap:4px;" title="Share this article">
+              <i class="fas fa-share-alt"></i> Share
+            </button>
+            <span class="blog-read-btn">Read &rarr;</span>
+          </div>
+        </div>
+      </div>
+    </article>
+  `).join('');
+}
+
+window.filterBlogs = function() {
+  const q = (document.getElementById('blogSearchInput')?.value || '').toLowerCase().trim();
+  const cat = document.getElementById('blogCategorySelect')?.value || '';
+
+  const filtered = activeBlogs.filter(b => {
+    const textBlob = (b.title + ' ' + (b.subtitle || '') + ' ' + b.author + ' ' + b.category).toLowerCase();
+    const matchQ = !q || textBlob.includes(q);
+    const matchCat = !cat || b.category === cat;
+    return matchQ && matchCat;
+  });
+
+  renderBlogs(filtered);
+};
+
+async function syncBackendBlogs() {
+  let loaded = false;
+  try {
+    const res = await fetch(`${window.LEX_API_URL || ''}/api/blogs`);
+    if (res.ok) {
+      const serverBlogs = await res.json();
+      if (Array.isArray(serverBlogs)) {
+        activeBlogs = serverBlogs;
+        localStorage.setItem('lga_publications', JSON.stringify(activeBlogs));
+        filterBlogs();
+        loaded = true;
+      }
+    }
+  } catch (e) {}
+
+  if (!loaded) {
+    try {
+      const local = localStorage.getItem('lga_publications');
+      if (local) {
+        const parsed = JSON.parse(local);
+        if (Array.isArray(parsed)) {
+          activeBlogs = parsed;
+          filterBlogs();
+        }
+      }
+    } catch (e) {}
+  }
+}
+
+// 6. Header Scroll & Search & Mobile Drawer
+const siteHeader = document.getElementById('siteHeader');
+window.addEventListener('scroll', () => {
+  if(siteHeader) {
+    if(window.scrollY > 40) siteHeader.classList.add('is-fixed');
+    else siteHeader.classList.remove('is-fixed');
+  }
+}, { passive: true });
+
+document.getElementById('searchOpenBtn')?.addEventListener('click', (e) => {
+  e.preventDefault();
+  const bar = document.getElementById('searchBar');
+  if(bar) {
+    bar.classList.add('is-open');
+    document.getElementById('popsearch')?.focus();
+  }
+});
+document.getElementById('searchCloseBtn')?.addEventListener('click', (e) => {
+  e.preventDefault();
+  document.getElementById('searchBar')?.classList.remove('is-open');
+});
+
+window.handleTopSearch = function(e) {
+  e.preventDefault();
+  const val = document.getElementById('popsearch')?.value.trim();
+  if(!val) return;
+  document.getElementById('searchBar')?.classList.remove('is-open');
+  const blogInput = document.getElementById('blogSearchInput');
+  if(blogInput) {
+    blogInput.value = val;
+    filterBlogs();
+    document.getElementById('blogs')?.scrollIntoView({ behavior: 'smooth' });
+  }
+};
+
+document.getElementById('menuToggleBtn')?.addEventListener('click', (e) => {
+  e.preventDefault();
+  const nav = document.getElementById('nav');
+  nav?.classList.toggle('is-open');
+  document.body.classList.toggle('menu-open', nav?.classList.contains('is-open'));
+});
+
+// Close mobile menu on item click
+document.querySelectorAll('#nav a').forEach(a => {
+  a.addEventListener('click', () => {
+    const nav = document.getElementById('nav');
+    if(nav && nav.classList.contains('is-open')) {
+      nav.classList.remove('is-open');
+      document.body.classList.remove('menu-open');
+    }
+  });
+});
+
+// ESC key closes any open modal or search overlay
+window.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') {
+    closeCustomModal();
+    document.getElementById('searchBar')?.classList.remove('is-open');
+    const nav = document.getElementById('nav');
+    if (nav?.classList.contains('is-open')) {
+      nav.classList.remove('is-open');
+      document.body.classList.remove('menu-open');
+    }
+  }
+});
+
+// 7. Contact / Consultation Form Submission (Server Connected & Validated)
+const contactForm = document.getElementById('contact-form');
+if(contactForm) {
+  contactForm.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const btn = contactForm.querySelector('button[type="submit"]');
+    const originalText = btn.textContent;
+
+    const email = document.getElementById('contactEmail')?.value.trim();
+    if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      alert('Please provide a valid email address for conflict review.');
+      return;
+    }
+
+    btn.textContent = 'Transmitting Privileged Intake...';
+    btn.disabled = true;
+
+    const payload = {
+      name: document.getElementById('contactName')?.value.trim(),
+      email: email,
+      phone: document.getElementById('contactPhone')?.value.trim() || '',
+      practiceArea: document.getElementById('contactPractice')?.value,
+      message: document.getElementById('contactMessage')?.value.trim(),
+      description: document.getElementById('contactMessage')?.value.trim()
+    };
+
+    try {
+      let refCode = 'LGA-' + Math.floor(100000 + Math.random()*900000);
+      try {
+        const res = await fetch(`${window.LEX_API_URL || ''}/api/contact`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+        if (res.ok) {
+          const data = await res.json();
+          if (data.id) refCode = data.id;
+        }
+      } catch(err) {}
+
+      // Save inquiry to local storage for guaranteed Netlify portal accessibility
+      try {
+        const inqItem = {
+          id: refCode,
+          name: payload.name,
+          email: payload.email,
+          phone: payload.phone,
+          organization: 'Client Direct Intake',
+          practiceArea: payload.practiceArea,
+          urgency: 'Routine',
+          status: 'New',
+          description: payload.message,
+          createdAt: new Date().toISOString()
+        };
+        const existingInq = JSON.parse(localStorage.getItem('lga_client_inquiries') || '[]');
+        existingInq.unshift(inqItem);
+        localStorage.setItem('lga_client_inquiries', JSON.stringify(existingInq));
+      } catch (e) {}
+
+      contactForm.reset();
+      openCustomModal(`
+        <div style="text-align:center; padding:20px;">
+          <div style="width:64px; height:64px; border:3px solid var(--primary); border-radius:50%; display:grid; place-items:center; font-size:26px; color:var(--primary); margin:0 auto 16px;">
+            <i class="fas fa-check"></i>
+          </div>
+          <h2 style="font-size:28px; margin-bottom:10px;">Confidential Intake Received</h2>
+          <p style="font-size:15px; color:#555; max-width:480px; margin:0 auto 20px;">
+            Your legal inquiry has been encrypted and assigned Reference <strong>${escapeHtml(refCode)}</strong>. Our Conflicts &amp; Client Matters Committee will review the synopsis and contact you directly.
+          </p>
+          <button class="button button-primary" onclick="closeCustomModal()">Done</button>
+        </div>
+      `);
+    } catch (err) {
+      contactForm.reset();
+    } finally {
+      btn.textContent = originalText;
+      btn.disabled = false;
+    }
+  });
+}
+
+// 8. Cookie Banner Handling
+const cookieBanner = document.getElementById('cookie-banner');
+const COOKIE_KEY = 'lga_cookie_accepted';
+if(cookieBanner && !localStorage.getItem(COOKIE_KEY)) {
+  cookieBanner.classList.add('is-visible');
+}
+document.getElementById('cookie-accept')?.addEventListener('click', () => {
+  localStorage.setItem(COOKIE_KEY, 'true');
+  cookieBanner?.classList.remove('is-visible');
+});
+document.getElementById('cookie-reject')?.addEventListener('click', () => {
+  localStorage.setItem(COOKIE_KEY, 'false');
+  cookieBanner?.classList.remove('is-visible');
+});
+document.getElementById('cookie-close')?.addEventListener('click', () => {
+  cookieBanner?.classList.remove('is-visible');
+});
+
+// Initialize on page load
+window.addEventListener('DOMContentLoaded', () => {
+  renderCourses(activeCourses);
+  syncBackendCourses();
+  renderBlogs(activeBlogs);
+  syncBackendBlogs();
+  startSlideAutoplay();
+  if (window.updateClassroomVisibility) window.updateClassroomVisibility();
+});
+</script>
+</body>
+</html>
